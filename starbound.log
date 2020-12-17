@@ -1,1179 +1,706 @@
-[14:34:11.045] [Info] Root: Preparing Root...
-[14:34:11.048] [Info] Root: Done preparing Root.
-[14:34:11.048] [Info] Client Version 1.4.4 (windows i386) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
-[14:34:11.049] [Info] Root: Scanning for asset sources in directory '..\assets\'
-[14:34:11.721] [Info] Root: Scanning for asset sources in directory '..\mods\'
-[14:34:12.694] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
-[14:34:12.694] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
-[14:34:12.694] [Info] Root: Detected asset source named 'FrackinUniverse' at '..\mods\729480149.pak'
-[14:34:12.694] [Info] Root: Detected asset source named 'Faster Warp' at '..\mods\729726251.pak'
-[14:34:12.695] [Info] Root: Detected unnamed asset source at '..\assets\user'
-[14:34:12.695] [Info] Loading assets from: '..\assets\packed.pak'
-[14:34:13.366] [Info] Loading assets from: '..\mods\729480149.pak'
-[14:34:14.481] [Info] Loading assets from: '..\mods\729726251.pak'
-[14:34:14.481] [Info] Loading assets from: '..\assets\user'
-[14:34:16.511] [Info] Assets digest is 3d100b77a00da68e1c868ff4e85317ce002a673ea554e4fde0b245a72cf59723
-[14:34:16.511] [Info] Root: Loaded Assets in 5.46218 seconds
-[14:34:16.528] [Info] Application: Initializing SDL Video
-[14:34:16.544] [Info] Application: Initializing SDL Joystick
-[14:34:16.807] [Info] Application: Initializing SDL Sound
-[14:34:17.137] [Info] Initialized Steam platform services
-[14:34:17.179] [Error] Failed to instantiate discord core (err 4)
-[14:34:17.179] [Info] Was not able to authenticate with Discord and create all components, Discord services will be unavailable
-[14:34:17.182] [Info] Application: Creating SDL Window
-[14:34:17.470] [Info] Application: Enabling VSync with late swap tearing
-[14:34:17.568] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
-[14:34:17.584] [Info] OpenGL version: '4.6.0 NVIDIA 456.71' vendor: 'NVIDIA Corporation' renderer: 'GeForce GTX 970/PCIe/SSE2' shader: '4.60 NVIDIA'
-[14:34:17.629] [Info] Application: initialization...
-[14:34:17.631] [Info] Root: Loaded Configuration in 0.0013747 seconds
-[14:34:17.642] [Info] Application: Disabling VSync
-[14:34:17.645] [Info] Application: renderer initialization...
-[14:34:17.647] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
-[14:34:17.656] [Info] Root: Loaded ImageMetadataDatabase in 1.10001e-06 seconds
-[14:34:20.963] [Info] Application: main update loop...
-[14:34:20.993] [Info] Loading mods from user generated content with id '729726251' from directory 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729726251'
-[14:34:20.993] [Info] Loading mods from user generated content with id '729480149' from directory 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729480149'
-[14:34:20.993] [Info] Reloading to include all user generated content
-[14:34:20.993] [Info] Root: Reloading from disk
-[14:34:20.993] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[14:34:21.054] [Info] Root: Loaded Configuration in 0.0009509 seconds
-[14:34:21.054] [Info] Root: Scanning for asset sources in directory '..\assets\'
-[14:34:21.656] [Info] Root: Scanning for asset sources in directory '..\mods\'
-[14:34:22.757] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
-[14:34:22.757] [Info] Root: Scanning for asset sources in directory 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729726251'
-[14:34:22.758] [Warn] Root: Overriding duplicate asset source '..\mods\729726251.pak' named 'Faster Warp' with higher or equal priority source 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729726251\contents.pak
-[14:34:22.758] [Info] Root: Scanning for asset sources in directory 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729480149'
-[14:34:23.877] [Warn] Root: Overriding duplicate asset source '..\mods\729480149.pak' named 'FrackinUniverse' with higher or equal priority source 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729480149\contents.pak
-[14:34:23.884] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
-[14:34:23.884] [Info] Root: Detected asset source named 'FrackinUniverse' at 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729480149\contents.pak'
-[14:34:23.884] [Info] Root: Detected asset source named 'Faster Warp' at 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729726251\contents.pak'
-[14:34:23.884] [Info] Root: Detected unnamed asset source at '..\assets\user'
-[14:34:23.884] [Info] Loading assets from: '..\assets\packed.pak'
-[14:34:24.647] [Info] Loading assets from: 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729480149\contents.pak'
-[14:34:25.894] [Info] Loading assets from: 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729726251\contents.pak'
-[14:34:25.894] [Info] Loading assets from: '..\assets\user'
-[14:34:27.961] [Info] Assets digest is 3d100b77a00da68e1c868ff4e85317ce002a673ea554e4fde0b245a72cf59723
-[14:34:27.962] [Info] Root: Loaded Assets in 6.90693 seconds
-[14:34:27.993] [Info] Root: Loaded ImageMetadataDatabase in 1.40001e-06 seconds
-[14:34:28.033] [Info] Root: Loaded NameGenerator in 0.0710371 seconds
-[14:34:28.945] [Info] Root: Loaded PlantDatabase in 0.911073 seconds
-[14:34:31.375] [Info] Root: Loaded ProjectileDatabase in 2.42998 seconds
-[14:34:32.778] [Info] Root: Loaded ObjectDatabase in 4.81525 seconds
-[14:34:33.361] [Info] Root: Loaded NpcDatabase in 0.583735 seconds
-[14:34:33.531] [Info] Root: Loaded StagehandDatabase in 0.169092 seconds
-[14:34:33.548] [Info] Root: Loaded MonsterDatabase in 2.17331 seconds
-[14:34:33.589] [Info] Root: Loaded VehicleDatabase in 0.058677 seconds
-[14:34:33.800] [Info] Root: Loaded PlayerFactory in 0.252186 seconds
-[14:34:33.811] [Info] Root: Loaded VersioningDatabase in 0.010368 seconds
-[14:34:33.811] [Info] Root: Loaded EntityFactory in 0.221481 seconds
-[14:34:34.054] [Info] Root: Loaded ParticleDatabase in 0.242973 seconds
-[14:34:35.146] [Info] Root: Loaded MaterialDatabase in 1.33484 seconds
-[14:34:35.197] [Info] Root: Loaded TerrainDatabase in 0.0504254 seconds
-[14:34:36.720] [Info] Root: Loaded BiomeDatabase in 1.52392 seconds
-[14:34:36.974] [Info] Root: Loaded LiquidsDatabase in 0.253556 seconds
-[14:34:37.184] [Info] Root: Loaded StatusEffectDatabase in 0.210049 seconds
-[14:34:39.369] [Info] Root: Loaded DamageDatabase in 2.18472 seconds
-[14:34:39.477] [Info] Root: Loaded EffectSourceDatabase in 0.108414 seconds
-[14:34:39.598] [Info] Root: Loaded FunctionDatabase in 0.120197 seconds
-[14:34:39.872] [Info] Root: Loaded TreasureDatabase in 0.274301 seconds
-[14:34:43.749] [Info] Root: Loaded DungeonDefinitions in 3.87714 seconds
-[14:34:43.749] [Info] Root: Loaded TilesetDatabase in 3.86e-05 seconds
-[14:34:43.768] [Info] Root: Loaded StatisticsDatabase in 0.0183327 seconds
-[14:34:43.781] [Info] Root: Loaded EmoteProcessor in 0.0127995 seconds
-[14:34:43.870] [Info] Root: Loaded SpeciesDatabase in 0.0900056 seconds
-[14:34:44.051] [Info] Root: Loaded QuestTemplateDatabase in 0.180423 seconds
-[14:34:44.063] [Info] Root: Loaded AiDatabase in 0.0126486 seconds
-[14:34:44.127] [Info] Root: Loaded TechDatabase in 0.0632832 seconds
-[14:34:44.251] [Info] Root: Loaded CodexDatabase in 0.124532 seconds
-[14:34:44.759] [Info] Root: Loaded BehaviorDatabase in 0.507774 seconds
-[14:34:44.769] [Info] Root: Loaded DanceDatabase in 0.009963 seconds
-[14:34:44.820] [Info] Root: Loaded SpawnTypeDatabase in 0.0503806 seconds
-[14:34:44.921] [Info] Root: Loaded RadioMessageDatabase in 0.100682 seconds
-[14:35:09.765] [Info] Root: Loaded ItemDatabase in 35.9646 seconds
-[14:35:13.127] [Info] Root: Loaded CollectionDatabase in 28.2067 seconds
-[14:35:18.771] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
-[14:35:28.866] [Info] UniverseServer: Acquiring universe lock file
-[14:35:28.872] [Info] UniverseServer: Loading settings
-[14:35:28.888] [Info] UniverseServer: Starting UniverseServer with UUID: bf6cac92dd4392b2090f6a23e324c84f
-[14:35:28.982] [Info] UniverseServer: Logged in player 'Skippy' locally
-[14:35:28.982] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Skippy' from address local
-[14:35:28.985] [Info] UniverseServer: Loading system world (445527283, 603103077, 1710103) from disk storage
-[14:35:28.986] [Info] UniverseClient: Joined server as client 1
-[14:35:29.026] [Info] UniverseServer: Reviving player at ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[14:35:29.027] [Info] UniverseServer: Client 'Skippy' <1> (local) connected
-[14:35:29.028] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[14:35:29.485] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
-[14:35:29.485] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
-[14:35:29.511] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
-[14:35:29.512] [Info] Setting steam rich presence connection as steamid_76561198098389076
-[14:35:29.523] [Error] Cannot set Steam achievement kill10poptops
-[14:35:29.695] [Info] Protected dungeonIds for world set to (65524)
-[14:35:31.330] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267=1187.46.1036
-[14:35:37.972] [Info] ----- FU player init -----
-[14:35:37.973] [Info] ----- End FU player init -----
-[14:35:37.973] [Info] ----- ZB player init -----
-[14:35:37.973] [Info] [ZB] Mods using update info window and their versions:
-[14:35:37.988] [Info] -- ztarbound   [Version 6.1.11]
-[14:35:37.988] [Info] -- frackinuniverse   [Version 6.1.11]
-[14:35:37.988] [Info] ----- end ZB player init -----
-[14:36:36.883] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+[21:07:24.765] [Info] Root: Preparing Root...
+[21:07:24.768] [Info] Root: Done preparing Root.
+[21:07:24.768] [Info] Client Version 1.4.4 (windows i386) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
+[21:07:24.768] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[21:07:25.405] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[21:07:26.523] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[21:07:26.523] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[21:07:26.523] [Info] Root: Detected asset source named 'FrackinUniverse' at '..\mods\729480149.pak'
+[21:07:26.523] [Info] Root: Detected asset source named 'Faster Warp' at '..\mods\729726251.pak'
+[21:07:26.523] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[21:07:26.523] [Info] Loading assets from: '..\assets\packed.pak'
+[21:07:27.334] [Info] Loading assets from: '..\mods\729480149.pak'
+[21:07:28.516] [Info] Loading assets from: '..\mods\729726251.pak'
+[21:07:28.517] [Info] Loading assets from: '..\assets\user'
+[21:07:30.364] [Info] Assets digest is 3d100b77a00da68e1c868ff4e85317ce002a673ea554e4fde0b245a72cf59723
+[21:07:30.365] [Info] Root: Loaded Assets in 5.59666 seconds
+[21:07:30.366] [Info] Application: Initializing SDL Video
+[21:07:30.379] [Info] Application: Initializing SDL Joystick
+[21:07:30.627] [Info] Application: Initializing SDL Sound
+[21:07:30.847] [Info] Initialized Steam platform services
+[21:07:30.858] [Info] Initialized Discord platform services
+[21:07:30.868] [Info] Application: Creating SDL Window
+[21:07:31.217] [Info] Application: Enabling VSync with late swap tearing
+[21:07:31.316] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
+[21:07:31.337] [Info] OpenGL version: '4.6.0 NVIDIA 456.71' vendor: 'NVIDIA Corporation' renderer: 'GeForce GTX 970/PCIe/SSE2' shader: '4.60 NVIDIA'
+[21:07:31.346] [Info] Application: initialization...
+[21:07:31.347] [Info] Root: Loaded Configuration in 0.0011074 seconds
+[21:07:31.347] [Info] Application: Disabling VSync
+[21:07:31.352] [Info] Application: renderer initialization...
+[21:07:31.355] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
+[21:07:31.356] [Info] Root: Loaded ImageMetadataDatabase in 1.40001e-06 seconds
+[21:07:31.497] [Info] Application: main update loop...
+[21:07:31.512] [Info] Loading mods from user generated content with id '729726251' from directory 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729726251'
+[21:07:31.512] [Info] Loading mods from user generated content with id '729480149' from directory 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729480149'
+[21:07:31.512] [Info] Reloading to include all user generated content
+[21:07:31.512] [Info] Root: Reloading from disk
+[21:07:31.512] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
+[21:07:31.565] [Info] Root: Loaded Configuration in 0.0010768 seconds
+[21:07:31.565] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[21:07:32.164] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[21:07:33.170] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[21:07:33.170] [Info] Root: Scanning for asset sources in directory 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729726251'
+[21:07:33.171] [Warn] Root: Overriding duplicate asset source '..\mods\729726251.pak' named 'Faster Warp' with higher or equal priority source 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729726251\contents.pak
+[21:07:33.171] [Info] Root: Scanning for asset sources in directory 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729480149'
+[21:07:34.246] [Warn] Root: Overriding duplicate asset source '..\mods\729480149.pak' named 'FrackinUniverse' with higher or equal priority source 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729480149\contents.pak
+[21:07:34.255] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[21:07:34.255] [Info] Root: Detected asset source named 'FrackinUniverse' at 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729480149\contents.pak'
+[21:07:34.255] [Info] Root: Detected asset source named 'Faster Warp' at 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729726251\contents.pak'
+[21:07:34.255] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[21:07:34.255] [Info] Loading assets from: '..\assets\packed.pak'
+[21:07:34.999] [Info] Loading assets from: 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729480149\contents.pak'
+[21:07:36.151] [Info] Loading assets from: 'D:\Program Files\SteamLibrary\steamapps\workshop\content\211820\729726251\contents.pak'
+[21:07:36.151] [Info] Loading assets from: '..\assets\user'
+[21:07:37.965] [Info] Assets digest is 3d100b77a00da68e1c868ff4e85317ce002a673ea554e4fde0b245a72cf59723
+[21:07:37.965] [Info] Root: Loaded Assets in 6.39963 seconds
+[21:07:37.975] [Info] Root: Loaded NameGenerator in 0.0090767 seconds
+[21:07:37.984] [Info] Root: Loaded ImageMetadataDatabase in 1.40001e-06 seconds
+[21:07:38.092] [Info] Root: Loaded PlantDatabase in 0.117811 seconds
+[21:07:38.880] [Info] Root: Loaded ProjectileDatabase in 0.787158 seconds
+[21:07:40.014] [Info] Root: Loaded MonsterDatabase in 1.13467 seconds
+[21:07:40.134] [Info] Root: Loaded ObjectDatabase in 2.16887 seconds
+[21:07:40.262] [Info] Root: Loaded NpcDatabase in 0.247428 seconds
+[21:07:40.274] [Info] Root: Loaded VehicleDatabase in 0.0127444 seconds
+[21:07:40.289] [Info] Root: Loaded StagehandDatabase in 0.155019 seconds
+[21:07:40.384] [Info] Root: Loaded PlayerFactory in 0.109551 seconds
+[21:07:40.386] [Info] Root: Loaded VersioningDatabase in 0.0025328 seconds
+[21:07:40.386] [Info] Root: Loaded EntityFactory in 0.0974105 seconds
+[21:07:40.462] [Info] Root: Loaded ParticleDatabase in 0.0756373 seconds
+[21:07:41.129] [Info] Root: Loaded MaterialDatabase in 0.742322 seconds
+[21:07:41.138] [Info] Root: Loaded TerrainDatabase in 0.0088703 seconds
+[21:07:42.017] [Info] Root: Loaded BiomeDatabase in 0.87892 seconds
+[21:07:42.042] [Info] Root: Loaded LiquidsDatabase in 0.0249526 seconds
+[21:07:42.154] [Info] Root: Loaded StatusEffectDatabase in 0.112166 seconds
+[21:07:43.231] [Info] Root: Loaded DamageDatabase in 1.07637 seconds
+[21:07:43.239] [Info] Root: Loaded EffectSourceDatabase in 0.0078824 seconds
+[21:07:43.281] [Info] Root: Loaded FunctionDatabase in 0.0421824 seconds
+[21:07:43.389] [Info] Root: Loaded TreasureDatabase in 0.108163 seconds
+[21:07:44.181] [Info] Root: Loaded DungeonDefinitions in 0.792211 seconds
+[21:07:44.181] [Info] Root: Loaded TilesetDatabase in 2.84e-05 seconds
+[21:07:44.183] [Info] Root: Loaded StatisticsDatabase in 0.0022876 seconds
+[21:07:44.183] [Info] Root: Loaded EmoteProcessor in 8.35e-05 seconds
+[21:07:44.247] [Info] Root: Loaded SpeciesDatabase in 0.0633362 seconds
+[21:07:44.420] [Info] Root: Loaded QuestTemplateDatabase in 0.172605 seconds
+[21:07:44.422] [Info] Root: Loaded AiDatabase in 0.002209 seconds
+[21:07:44.432] [Info] Root: Loaded TechDatabase in 0.0100127 seconds
+[21:07:44.487] [Info] Root: Loaded CodexDatabase in 0.0550147 seconds
+[21:07:45.136] [Info] Root: Loaded BehaviorDatabase in 0.648814 seconds
+[21:07:45.139] [Info] Root: Loaded DanceDatabase in 0.0033446 seconds
+[21:07:45.159] [Info] Root: Loaded SpawnTypeDatabase in 0.0197823 seconds
+[21:07:45.219] [Info] Root: Loaded RadioMessageDatabase in 0.0591326 seconds
+[21:08:07.683] [Info] Root: Loaded ItemDatabase in 27.2983 seconds
+[21:08:10.319] [Info] Root: Loaded CollectionDatabase in 25.1009 seconds
+[21:08:14.636] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
+[21:08:44.803] [Info] UniverseServer: Acquiring universe lock file
+[21:08:44.808] [Info] UniverseServer: Loading settings
+[21:08:44.811] [Info] UniverseServer: Starting UniverseServer with UUID: bf6cac92dd4392b2090f6a23e324c84f
+[21:08:44.898] [Info] UniverseServer: Logged in player 'Skippy' locally
+[21:08:44.898] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Skippy' from address local
+[21:08:44.900] [Info] UniverseServer: Loading system world (445527476, 603103146, 75853431) from disk storage
+[21:08:44.901] [Info] UniverseClient: Joined server as client 1
+[21:08:44.938] [Info] UniverseServer: Reviving player at ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[21:08:44.939] [Info] UniverseServer: Client 'Skippy' <1> (local) connected
+[21:08:44.945] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[21:08:45.038] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
+[21:08:45.038] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
+[21:08:45.057] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
+[21:08:45.057] [Info] Setting steam rich presence connection as steamid_76561198098389076
+[21:08:45.067] [Error] Cannot set Steam achievement kill10poptops
+[21:08:45.495] [Info] Protected dungeonIds for world set to (65524)
+[21:08:45.517] [Info] Setting discord join secret as connect:discord_292698601786966016_788482696833663016_b1752ecf5d249004
+[21:08:53.265] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267=1070.88.1004
+[21:08:54.434] [Info] ----- FU player init -----
+[21:08:54.434] [Info] ----- End FU player init -----
+[21:08:54.434] [Info] ----- ZB player init -----
+[21:08:54.434] [Info] [ZB] Mods using update info window and their versions:
+[21:08:54.435] [Info] -- frackinuniverse   [Version 6.1.11]
+[21:08:54.435] [Info] -- ztarbound   [Version 6.1.11]
+[21:08:54.435] [Info] ----- end ZB player init -----
+[21:19:53.934] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
 (ImageOperationException) Error reading ImageOperation
 Caused by: (OutOfRangeException) out of range list::at(1)
-[15:04:52.627] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+[21:20:16.936] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
+[21:20:17.246] [Info] Protected dungeonIds for world set to (65524)
+[21:20:17.488] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
+[21:20:17.579] [Info] Client received world stop packet, leaving: Removed
+[21:20:18.418] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[21:20:19.560] [Info] ----- FU player init -----
+[21:20:19.561] [Info] ----- End FU player init -----
+[21:20:19.561] [Info] ----- ZB player init -----
+[21:20:19.561] [Info] [ZB] Mods using update info window and their versions:
+[21:20:19.562] [Info] -- ztarbound   [Version 6.1.11]
+[21:20:19.562] [Info] -- frackinuniverse   [Version 6.1.11]
+[21:20:19.562] [Info] ----- end ZB player init -----
+[21:20:28.878] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
+[21:20:30.677] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
 (ImageOperationException) Error reading ImageOperation
 Caused by: (OutOfRangeException) out of range list::at(1)
-[15:12:45.585] [Info] UniverseServer: Loading celestial world 445527283:603103077:1710103:5
-[15:12:46.298] [Info] Protected dungeonIds for world set to (5, 6, 65524)
-[15:12:46.434] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527283:603103077:1710103:5
-[15:12:46.452] [Info] Client received world stop packet, leaving: Removed
-[15:12:46.460] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[15:12:52.962] [Info] ----- FU player init -----
-[15:12:52.962] [Info] ----- End FU player init -----
-[15:12:52.962] [Info] ----- ZB player init -----
-[15:12:52.962] [Info] [ZB] Mods using update info window and their versions:
-[15:12:52.963] [Info] -- frackinuniverse   [Version 6.1.11]
-[15:12:52.963] [Info] -- ztarbound   [Version 6.1.11]
-[15:12:52.963] [Info] ----- end ZB player init -----
-[15:12:57.607] [Info] Chat: <SAIL> WARNING: ELECTRICAL STORM ! A nasty electric storm is picking up. The charge in the air will interfere with your energy supply and could cause dangerous overloads. I advise you to find shelter immediately.
-[15:13:07.091] [Info] Chat: <SAIL> I must advise you against swimming in liquid during a lightning storm. I hope that I do not need to explain what will happen if lightning strikes you now.
-[15:13:29.115] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[15:13:29.628] [Info] Protected dungeonIds for world set to (65524)
-[15:13:30.680] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[15:13:30.694] [Info] Client received world stop packet, leaving: Removed
-[15:13:30.729] [Info] UniverseServer: Stopping idle world CelestialWorld:445527283:603103077:1710103:5
-[15:13:36.803] [Info] ----- FU player init -----
-[15:13:36.804] [Info] ----- End FU player init -----
-[15:13:36.804] [Info] ----- ZB player init -----
-[15:13:36.804] [Info] [ZB] Mods using update info window and their versions:
-[15:13:36.805] [Info] -- frackinuniverse   [Version 6.1.11]
-[15:13:36.805] [Info] -- ztarbound   [Version 6.1.11]
-[15:13:36.805] [Info] ----- end ZB player init -----
-[15:15:57.982] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
-[15:15:57.994] [Info] Protected dungeonIds for world set to (65524)
-[15:15:57.994] [Info] Placing dungeon outpost
-[15:15:58.001] [Info] Placing dungeon at (0, 750)
-[15:16:03.125] [Info] Protected dungeonIds for world set to (0, 65524)
-[15:16:04.359] [Info] Placing dungeon at (406, 651)
-[15:16:04.363] [Info] Placing dungeon at (332, 621)
-[15:16:04.370] [Info] Placing dungeon at (332, 655)
-[15:16:04.537] [Info] Placing dungeon at (427, 618)
-[15:16:04.541] [Info] Placing dungeon at (310, 616)
-[15:16:04.544] [Info] Placing dungeon at (838, 608)
-[15:16:04.591] [Info] Placing dungeon at (452, 627)
-[15:16:04.595] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
-[15:16:04.597] [Info] Placing dungeon at (308, 640)
-[15:16:04.601] [Info] Placing dungeon at (931, 608)
-[15:16:04.621] [Info] Placing dungeon at (611, 645)
-[15:16:04.626] [Info] Placing dungeon at (805, 608)
-[15:16:04.641] [Info] Placing dungeon at (444, 561)
-[15:16:04.643] [Info] Placing dungeon at (964, 608)
-[15:16:04.681] [Info] Placing dungeon at (757, 597)
-[15:16:04.706] [Info] Placing dungeon at (355, 636)
-[15:16:04.711] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[15:16:04.713] [Info] Placing dungeon at (355, 636)
-[15:16:04.719] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[15:16:04.721] [Info] Placing dungeon at (447, 567)
-[15:16:04.735] [Info] Placing dungeon at (429, 567)
-[15:16:05.093] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-=outpost
-[15:16:05.893] [Info] Client received world stop packet, leaving: Removed
-[15:16:05.898] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[15:16:11.849] [Info] ----- FU player init -----
-[15:16:11.850] [Info] ----- End FU player init -----
-[15:16:11.850] [Info] ----- ZB player init -----
-[15:16:11.850] [Info] [ZB] Mods using update info window and their versions:
-[15:16:11.850] [Info] -- ztarbound   [Version 6.1.11]
-[15:16:11.851] [Info] -- frackinuniverse   [Version 6.1.11]
-[15:16:11.851] [Info] ----- end ZB player init -----
-[15:25:01.413] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[15:25:01.736] [Info] Protected dungeonIds for world set to (65524)
-[15:25:02.050] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[15:25:02.131] [Info] Client received world stop packet, leaving: Removed
-[15:25:03.253] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
-[15:25:03.588] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
-[15:25:09.370] [Info] ----- FU player init -----
-[15:25:09.371] [Info] ----- End FU player init -----
-[15:25:09.371] [Info] ----- ZB player init -----
-[15:25:09.371] [Info] [ZB] Mods using update info window and their versions:
-[15:25:09.371] [Info] -- frackinuniverse   [Version 6.1.11]
-[15:25:09.371] [Info] -- ztarbound   [Version 6.1.11]
-[15:25:09.371] [Info] ----- end ZB player init -----
-[15:52:11.163] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[15:52:11.724] [Info] Protected dungeonIds for world set to (65524)
-[15:52:12.805] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[15:52:12.813] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[15:52:12.919] [Info] Client received world stop packet, leaving: Removed
-[15:52:18.813] [Info] ----- FU player init -----
-[15:52:18.814] [Info] ----- End FU player init -----
-[15:52:18.814] [Info] ----- ZB player init -----
-[15:52:18.814] [Info] [ZB] Mods using update info window and their versions:
-[15:52:18.815] [Info] -- ztarbound   [Version 6.1.11]
-[15:52:18.815] [Info] -- frackinuniverse   [Version 6.1.11]
-[15:52:18.815] [Info] ----- end ZB player init -----
-[15:54:10.587] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[15:54:10.910] [Info] Protected dungeonIds for world set to (65524)
-[15:54:11.105] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[15:54:11.223] [Info] Client received world stop packet, leaving: Removed
-[15:54:11.397] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[15:54:17.402] [Info] ----- FU player init -----
-[15:54:17.402] [Info] ----- End FU player init -----
-[15:54:17.402] [Info] ----- ZB player init -----
-[15:54:17.402] [Info] [ZB] Mods using update info window and their versions:
-[15:54:17.403] [Info] -- frackinuniverse   [Version 6.1.11]
-[15:54:17.403] [Info] -- ztarbound   [Version 6.1.11]
-[15:54:17.403] [Info] ----- end ZB player init -----
-[15:59:04.986] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+[21:31:33.611] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[21:31:34.153] [Info] Protected dungeonIds for world set to (65524)
+[21:31:41.374] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[21:31:41.389] [Info] Client received world stop packet, leaving: Removed
+[21:31:41.398] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
+[21:31:42.358] [Info] ----- FU player init -----
+[21:31:42.358] [Info] ----- End FU player init -----
+[21:31:42.358] [Info] ----- ZB player init -----
+[21:31:42.359] [Info] [ZB] Mods using update info window and their versions:
+[21:31:42.360] [Info] -- ztarbound   [Version 6.1.11]
+[21:31:42.360] [Info] -- frackinuniverse   [Version 6.1.11]
+[21:31:42.360] [Info] ----- end ZB player init -----
+[21:32:32.435] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
 (ImageOperationException) Error reading ImageOperation
 Caused by: (OutOfRangeException) out of range list::at(1)
-[15:59:45.420] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
-[15:59:45.883] [Info] Protected dungeonIds for world set to (1, 65524)
-[15:59:46.133] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
-[15:59:46.330] [Info] Client received world stop packet, leaving: Removed
-[15:59:48.332] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[15:59:55.128] [Info] ----- FU player init -----
-[15:59:55.128] [Info] ----- End FU player init -----
-[15:59:55.128] [Info] ----- ZB player init -----
-[15:59:55.129] [Info] [ZB] Mods using update info window and their versions:
-[15:59:55.129] [Info] -- ztarbound   [Version 6.1.11]
-[15:59:55.129] [Info] -- frackinuniverse   [Version 6.1.11]
-[15:59:55.129] [Info] ----- end ZB player init -----
-[16:00:16.528] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[16:00:16.813] [Info] Protected dungeonIds for world set to (65524)
-[16:00:17.032] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[16:00:17.112] [Info] Client received world stop packet, leaving: Removed
-[16:00:17.253] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
-[16:00:18.239] [Info] ----- FU player init -----
-[16:00:18.239] [Info] ----- End FU player init -----
-[16:00:18.239] [Info] ----- ZB player init -----
-[16:00:18.239] [Info] [ZB] Mods using update info window and their versions:
-[16:00:18.239] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:00:18.239] [Info] -- ztarbound   [Version 6.1.11]
-[16:00:18.239] [Info] ----- end ZB player init -----
-[16:04:38.553] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
-[16:04:38.569] [Info] Protected dungeonIds for world set to (65524)
-[16:04:38.569] [Info] Placing dungeon outpost
-[16:04:38.579] [Info] Placing dungeon at (0, 750)
-[16:04:43.274] [Info] Protected dungeonIds for world set to (0, 65524)
-[16:04:44.350] [Info] Placing dungeon at (406, 651)
-[16:04:44.353] [Info] Placing dungeon at (332, 621)
-[16:04:44.362] [Info] Placing dungeon at (332, 655)
-[16:04:44.409] [Info] Placing dungeon at (427, 618)
-[16:04:44.412] [Info] Placing dungeon at (310, 616)
-[16:04:44.413] [Info] Placing dungeon at (838, 608)
-[16:04:44.463] [Info] Placing dungeon at (452, 627)
-[16:04:44.468] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
-[16:04:44.468] [Info] Placing dungeon at (308, 640)
-[16:04:44.470] [Info] Placing dungeon at (931, 608)
-[16:04:44.494] [Info] Placing dungeon at (611, 645)
-[16:04:44.497] [Info] Placing dungeon at (805, 608)
-[16:04:44.511] [Info] Placing dungeon at (444, 561)
-[16:04:44.513] [Info] Placing dungeon at (964, 608)
-[16:04:44.538] [Info] Placing dungeon at (757, 597)
-[16:04:44.564] [Info] Placing dungeon at (355, 636)
-[16:04:44.570] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[16:04:44.571] [Info] Placing dungeon at (355, 636)
-[16:04:44.577] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[16:04:44.578] [Info] Placing dungeon at (447, 567)
-[16:04:44.589] [Info] Placing dungeon at (429, 567)
-[16:04:44.672] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-=outpost
-[16:04:44.679] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[16:04:44.805] [Info] Client received world stop packet, leaving: Removed
-[16:04:51.839] [Info] ----- FU player init -----
-[16:04:51.839] [Info] ----- End FU player init -----
-[16:04:51.839] [Info] ----- ZB player init -----
-[16:04:51.839] [Info] [ZB] Mods using update info window and their versions:
-[16:04:51.840] [Info] -- ztarbound   [Version 6.1.11]
-[16:04:51.840] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:04:51.840] [Info] ----- end ZB player init -----
-[16:07:33.524] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:07:34.144] [Info] Protected dungeonIds for world set to (65524)
-[16:07:35.216] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:07:35.233] [Info] Client received world stop packet, leaving: Removed
-[16:07:35.252] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
-[16:07:35.703] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
-[16:07:39.786] [Info] ----- FU player init -----
-[16:07:39.787] [Info] ----- End FU player init -----
-[16:07:39.787] [Info] ----- ZB player init -----
-[16:07:39.787] [Info] [ZB] Mods using update info window and their versions:
-[16:07:39.787] [Info] -- ztarbound   [Version 6.1.11]
-[16:07:39.788] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:07:39.788] [Info] ----- end ZB player init -----
-[16:07:53.710] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+[21:45:28.412] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
 (ImageOperationException) Error reading ImageOperation
 Caused by: (OutOfRangeException) out of range list::at(1)
-[16:08:33.173] [Info] Flying ship for player 1 to 445527283:603103077:1710103
-[16:08:36.637] [Info] UniverseServer: Arriving ship for player 1 at 445527283:603103077:1710103
-[16:08:45.158] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:spaceencounter:b8872420f114e4773456820729bd42ab:5' with expiry time 600000
-[16:08:45.170] [Info] Protected dungeonIds for world set to (65524)
-[16:08:45.170] [Info] Placing dungeon spaceencounter
-[16:08:45.171] [Info] Placing dungeon at (0, 150)
-[16:08:45.829] [Info] Protected dungeonIds for world set to (0, 65524)
-[16:08:46.196] [Info] UniverseServer: Warping player 1 to InstanceWorld:spaceencounter:b8872420f114e4773456820729bd42ab:5
-[16:08:46.202] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:08:46.279] [Info] Client received world stop packet, leaving: Removed
-[16:08:47.601] [Info] ----- FU player init -----
-[16:08:47.601] [Info] ----- End FU player init -----
-[16:08:47.601] [Info] ----- ZB player init -----
-[16:08:47.601] [Info] [ZB] Mods using update info window and their versions:
-[16:08:47.602] [Info] -- ztarbound   [Version 6.1.11]
-[16:08:47.602] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:08:47.602] [Info] ----- end ZB player init -----
-[16:11:12.303] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;14;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (14, 8) out of image bounds (62, 4)
-[16:11:24.903] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;12;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (12, 8) out of image bounds (62, 4)
-[16:11:27.837] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;13;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (13, 8) out of image bounds (62, 4)
-[16:14:15.997] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;14;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (14, 8) out of image bounds (62, 4)
-[16:14:16.242] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;13;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (13, 8) out of image bounds (62, 4)
-[16:14:23.823] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;11;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (11, 8) out of image bounds (62, 4)
-[16:14:23.848] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;10;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (10, 8) out of image bounds (62, 4)
-[16:14:24.158] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;9;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (9, 8) out of image bounds (62, 4)
-[16:14:24.803] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;7;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (7, 8) out of image bounds (62, 4)
-[16:14:25.031] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;6;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (6, 8) out of image bounds (62, 4)
-[16:14:25.778] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;4;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (4, 8) out of image bounds (62, 4)
-[16:14:27.812] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;3;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (3, 8) out of image bounds (62, 4)
-[16:14:27.847] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;2;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (2, 8) out of image bounds (62, 4)
-[16:14:27.961] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;1;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (1, 8) out of image bounds (62, 4)
-[16:14:30.765] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:14:31.329] [Info] Protected dungeonIds for world set to (65524)
-[16:14:38.523] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:14:38.535] [Info] Client received world stop packet, leaving: Removed
-[16:14:38.582] [Info] UniverseServer: Stopping idle world InstanceWorld:spaceencounter:b8872420f114e4773456820729bd42ab:5
-[16:14:39.489] [Info] ----- FU player init -----
-[16:14:39.490] [Info] ----- End FU player init -----
-[16:14:39.490] [Info] ----- ZB player init -----
-[16:14:39.490] [Info] [ZB] Mods using update info window and their versions:
-[16:14:39.490] [Info] -- ztarbound   [Version 6.1.11]
-[16:14:39.490] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:14:39.490] [Info] ----- end ZB player init -----
-[16:15:11.730] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[16:15:12.020] [Info] Protected dungeonIds for world set to (65524)
-[16:15:12.248] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[16:15:12.386] [Info] Client received world stop packet, leaving: Removed
-[16:15:13.300] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:15:13.564] [Info] ----- FU player init -----
-[16:15:13.564] [Info] ----- End FU player init -----
-[16:15:13.564] [Info] ----- ZB player init -----
-[16:15:13.564] [Info] [ZB] Mods using update info window and their versions:
-[16:15:13.565] [Info] -- ztarbound   [Version 6.1.11]
-[16:15:13.565] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:15:13.565] [Info] ----- end ZB player init -----
-[16:16:06.615] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
-[16:16:06.631] [Info] Protected dungeonIds for world set to (65524)
-[16:16:06.631] [Info] Placing dungeon outpost
-[16:16:06.638] [Info] Placing dungeon at (0, 750)
-[16:16:10.883] [Info] Protected dungeonIds for world set to (0, 65524)
-[16:16:11.849] [Info] Placing dungeon at (406, 651)
-[16:16:11.853] [Info] Placing dungeon at (332, 621)
-[16:16:11.858] [Info] Placing dungeon at (332, 655)
-[16:16:11.902] [Info] Placing dungeon at (427, 618)
-[16:16:11.907] [Info] Placing dungeon at (310, 616)
-[16:16:11.911] [Info] Placing dungeon at (838, 608)
-[16:16:11.958] [Info] Placing dungeon at (452, 627)
-[16:16:11.963] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
-[16:16:11.965] [Info] Placing dungeon at (308, 640)
-[16:16:11.968] [Info] Placing dungeon at (931, 608)
-[16:16:11.989] [Info] Placing dungeon at (611, 645)
-[16:16:11.995] [Info] Placing dungeon at (805, 608)
-[16:16:12.011] [Info] Placing dungeon at (444, 561)
-[16:16:12.013] [Info] Placing dungeon at (964, 608)
-[16:16:12.037] [Info] Placing dungeon at (757, 597)
-[16:16:12.063] [Info] Placing dungeon at (355, 636)
-[16:16:12.069] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[16:16:12.072] [Info] Placing dungeon at (355, 636)
-[16:16:12.080] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[16:16:12.082] [Info] Placing dungeon at (447, 567)
-[16:16:12.096] [Info] Placing dungeon at (429, 567)
-[16:16:12.180] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-=outpost
-[16:16:12.183] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[16:16:12.236] [Info] Client received world stop packet, leaving: Removed
-[16:16:18.693] [Info] ----- FU player init -----
-[16:16:18.694] [Info] ----- End FU player init -----
-[16:16:18.694] [Info] ----- ZB player init -----
-[16:16:18.694] [Info] [ZB] Mods using update info window and their versions:
-[16:16:18.695] [Info] -- ztarbound   [Version 6.1.11]
-[16:16:18.695] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:16:18.695] [Info] ----- end ZB player init -----
-[16:19:21.100] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[16:19:21.414] [Info] Protected dungeonIds for world set to (65524)
-[16:19:21.693] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[16:19:21.764] [Info] Client received world stop packet, leaving: Removed
-[16:19:21.942] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
-[16:19:22.352] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
-[16:19:26.653] [Info] ----- FU player init -----
-[16:19:26.653] [Info] ----- End FU player init -----
-[16:19:26.653] [Info] ----- ZB player init -----
-[16:19:26.653] [Info] [ZB] Mods using update info window and their versions:
-[16:19:26.654] [Info] -- ztarbound   [Version 6.1.11]
-[16:19:26.654] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:19:26.654] [Info] ----- end ZB player init -----
-[16:26:14.364] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
-[16:26:14.688] [Info] Protected dungeonIds for world set to (1, 65524)
-[16:26:14.768] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
-[16:26:14.911] [Info] Client received world stop packet, leaving: Removed
-[16:26:16.841] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[16:26:17.994] [Info] ----- FU player init -----
-[16:26:17.994] [Info] ----- End FU player init -----
-[16:26:17.995] [Info] ----- ZB player init -----
-[16:26:17.995] [Info] [ZB] Mods using update info window and their versions:
-[16:26:17.995] [Info] -- ztarbound   [Version 6.1.11]
-[16:26:17.995] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:26:17.995] [Info] ----- end ZB player init -----
-[16:26:33.837] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
-[16:26:33.846] [Info] Protected dungeonIds for world set to (65524)
-[16:26:33.846] [Info] Placing dungeon outpost
-[16:26:33.854] [Info] Placing dungeon at (0, 750)
-[16:26:37.831] [Info] Protected dungeonIds for world set to (0, 65524)
-[16:26:38.796] [Info] Placing dungeon at (406, 651)
-[16:26:38.799] [Info] Placing dungeon at (332, 621)
-[16:26:38.802] [Info] Placing dungeon at (332, 655)
-[16:26:38.844] [Info] Placing dungeon at (427, 618)
-[16:26:38.847] [Info] Placing dungeon at (310, 616)
-[16:26:38.848] [Info] Placing dungeon at (838, 608)
-[16:26:38.872] [Info] Placing dungeon at (452, 627)
-[16:26:38.877] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
-[16:26:38.878] [Info] Placing dungeon at (308, 640)
-[16:26:38.879] [Info] Placing dungeon at (931, 608)
-[16:26:38.899] [Info] Placing dungeon at (611, 645)
-[16:26:38.902] [Info] Placing dungeon at (805, 608)
-[16:26:38.917] [Info] Placing dungeon at (444, 561)
-[16:26:38.918] [Info] Placing dungeon at (964, 608)
-[16:26:38.942] [Info] Placing dungeon at (757, 597)
-[16:26:38.965] [Info] Placing dungeon at (355, 636)
-[16:26:38.970] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[16:26:38.971] [Info] Placing dungeon at (355, 636)
-[16:26:38.978] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[16:26:38.978] [Info] Placing dungeon at (447, 567)
-[16:26:38.990] [Info] Placing dungeon at (429, 567)
-[16:26:39.317] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-=outpost
-[16:26:40.111] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
-[16:26:40.123] [Info] Client received world stop packet, leaving: Removed
-[16:26:40.343] [Info] ----- FU player init -----
-[16:26:40.343] [Info] ----- End FU player init -----
-[16:26:40.344] [Info] ----- ZB player init -----
-[16:26:40.344] [Info] [ZB] Mods using update info window and their versions:
-[16:26:40.344] [Info] -- ztarbound   [Version 6.1.11]
-[16:26:40.344] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:26:40.344] [Info] ----- end ZB player init -----
-[16:30:43.720] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:30:44.291] [Info] Protected dungeonIds for world set to (65524)
-[16:30:45.376] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:30:45.389] [Info] Client received world stop packet, leaving: Removed
-[16:30:45.404] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
-[16:30:45.629] [Info] ----- FU player init -----
-[16:30:45.630] [Info] ----- End FU player init -----
-[16:30:45.630] [Info] ----- ZB player init -----
-[16:30:45.630] [Info] [ZB] Mods using update info window and their versions:
-[16:30:45.630] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:30:45.630] [Info] -- ztarbound   [Version 6.1.11]
-[16:30:45.630] [Info] ----- end ZB player init -----
-[16:30:45.746] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
-[16:32:05.767] [Info] UniverseServer: Loading temporary instance world InstanceWorld:spaceencounter:b8872420f114e4773456820729bd42ab:5 from storage
-[16:32:05.770] [Info] Protected dungeonIds for world set to (0, 65524)
-[16:32:05.880] [Info] UniverseServer: Warping player 1 to InstanceWorld:spaceencounter:b8872420f114e4773456820729bd42ab:5
-[16:32:05.932] [Info] Client received world stop packet, leaving: Removed
-[16:32:05.959] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:32:06.886] [Info] ----- FU player init -----
-[16:32:06.886] [Info] ----- End FU player init -----
-[16:32:06.886] [Info] ----- ZB player init -----
-[16:32:06.886] [Info] [ZB] Mods using update info window and their versions:
-[16:32:06.887] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:32:06.888] [Info] -- ztarbound   [Version 6.1.11]
-[16:32:06.888] [Info] ----- end ZB player init -----
-[16:32:15.870] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[16:36:38.769] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:36:39.285] [Info] Protected dungeonIds for world set to (65524)
-[16:36:46.087] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:36:46.095] [Info] Client received world stop packet, leaving: Removed
-[16:36:46.096] [Info] UniverseServer: Stopping idle world InstanceWorld:spaceencounter:b8872420f114e4773456820729bd42ab:5
-[16:36:47.010] [Info] ----- FU player init -----
-[16:36:47.011] [Info] ----- End FU player init -----
-[16:36:47.011] [Info] ----- ZB player init -----
-[16:36:47.011] [Info] [ZB] Mods using update info window and their versions:
-[16:36:47.011] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:36:47.011] [Info] -- ztarbound   [Version 6.1.11]
-[16:36:47.011] [Info] ----- end ZB player init -----
-[16:36:56.169] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[16:37:04.768] [Info] Flying ship for player 1 to 445527283:603103077:1710103
-[16:37:12.813] [Info] UniverseServer: Arriving ship for player 1 at 445527283:603103077:1710103
-[16:37:18.612] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:spaceencounter:e8cc031a78ecda0fcc7427f29a719ef4:5' with expiry time 600000
-[16:37:18.621] [Info] Protected dungeonIds for world set to (65524)
-[16:37:18.621] [Info] Placing dungeon spaceencounter
-[16:37:18.623] [Info] Placing dungeon at (0, 150)
-[16:37:19.225] [Info] Protected dungeonIds for world set to (0, 65524)
-[16:37:19.896] [Info] UniverseServer: Warping player 1 to InstanceWorld:spaceencounter:e8cc031a78ecda0fcc7427f29a719ef4:5
-[16:37:20.440] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:37:20.442] [Info] Client received world stop packet, leaving: Removed
-[16:37:20.633] [Info] ----- FU player init -----
-[16:37:20.633] [Info] ----- End FU player init -----
-[16:37:20.633] [Info] ----- ZB player init -----
-[16:37:20.633] [Info] [ZB] Mods using update info window and their versions:
-[16:37:20.633] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:37:20.634] [Info] -- ztarbound   [Version 6.1.11]
-[16:37:20.634] [Info] ----- end ZB player init -----
-[16:37:26.240] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[16:46:20.742] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:46:21.367] [Info] Protected dungeonIds for world set to (65524)
-[16:46:28.274] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:46:28.295] [Info] Client received world stop packet, leaving: Removed
-[16:46:28.326] [Info] UniverseServer: Stopping idle world InstanceWorld:spaceencounter:e8cc031a78ecda0fcc7427f29a719ef4:5
-[16:46:29.202] [Info] ----- FU player init -----
-[16:46:29.202] [Info] ----- End FU player init -----
-[16:46:29.202] [Info] ----- ZB player init -----
-[16:46:29.202] [Info] [ZB] Mods using update info window and their versions:
-[16:46:29.203] [Info] -- ztarbound   [Version 6.1.11]
-[16:46:29.203] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:46:29.203] [Info] ----- end ZB player init -----
-[16:46:47.395] [Info] Flying ship for player 1 to 445527283:603103077:1710103
-[16:46:51.660] [Info] UniverseServer: Expiring temporary world InstanceWorld:spaceencounter:b8872420f114e4773456820729bd42ab:5
-[16:46:55.619] [Info] UniverseServer: Arriving ship for player 1 at 445527283:603103077:1710103
-[16:47:01.104] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:spaceencounter:83c3da146fe38ce090bc912ad9f34586:5' with expiry time 600000
-[16:47:01.116] [Info] Protected dungeonIds for world set to (65524)
-[16:47:01.117] [Info] Placing dungeon spaceencounter
-[16:47:01.117] [Info] Placing dungeon at (0, 150)
-[16:47:01.763] [Info] Protected dungeonIds for world set to (0, 65524)
-[16:47:02.091] [Info] UniverseServer: Warping player 1 to InstanceWorld:spaceencounter:83c3da146fe38ce090bc912ad9f34586:5
-[16:47:02.093] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:47:02.093] [Info] Client received world stop packet, leaving: Removed
-[16:47:08.151] [Info] ----- FU player init -----
-[16:47:08.152] [Info] ----- End FU player init -----
-[16:47:08.152] [Info] ----- ZB player init -----
-[16:47:08.152] [Info] [ZB] Mods using update info window and their versions:
-[16:47:08.153] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:47:08.153] [Info] -- ztarbound   [Version 6.1.11]
-[16:47:08.153] [Info] ----- end ZB player init -----
-[16:50:09.701] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;14;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (14, 8) out of image bounds (62, 4)
-[16:50:09.772] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;12;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (12, 8) out of image bounds (62, 4)
-[16:50:10.772] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;10;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (10, 8) out of image bounds (62, 4)
-[16:50:12.743] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;8;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (8, 8) out of image bounds (62, 4)
-[16:50:13.872] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;9;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (9, 8) out of image bounds (62, 4)
-[16:50:14.990] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;7;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (7, 8) out of image bounds (62, 4)
-[16:50:15.699] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;5;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (5, 8) out of image bounds (62, 4)
-[16:50:19.065] [Error] Could not load image asset '/scripts/deployment/healthbarflash.png?crop=0;0;1;8;', using placeholder default.
-(ImageException) call to subImage with pos (0, 0) size (1, 8) out of image bounds (62, 4)
-[16:50:22.130] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:50:22.646] [Info] Protected dungeonIds for world set to (65524)
-[16:50:29.568] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:50:29.581] [Info] UniverseServer: Stopping idle world InstanceWorld:spaceencounter:83c3da146fe38ce090bc912ad9f34586:5
-[16:50:29.587] [Info] Client received world stop packet, leaving: Removed
-[16:50:30.486] [Info] ----- FU player init -----
-[16:50:30.486] [Info] ----- End FU player init -----
-[16:50:30.486] [Info] ----- ZB player init -----
-[16:50:30.486] [Info] [ZB] Mods using update info window and their versions:
-[16:50:30.487] [Info] -- ztarbound   [Version 6.1.11]
-[16:50:30.487] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:50:30.487] [Info] ----- end ZB player init -----
-[16:50:42.029] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[16:50:44.030] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
-[16:50:44.039] [Info] Protected dungeonIds for world set to (65524)
-[16:50:44.039] [Info] Placing dungeon outpost
-[16:50:44.046] [Info] Placing dungeon at (0, 750)
-[16:50:47.873] [Info] Protected dungeonIds for world set to (0, 65524)
-[16:50:48.797] [Info] Placing dungeon at (406, 651)
-[16:50:48.801] [Info] Placing dungeon at (332, 621)
-[16:50:48.805] [Info] Placing dungeon at (332, 655)
-[16:50:48.848] [Info] Placing dungeon at (427, 618)
-[16:50:48.852] [Info] Placing dungeon at (310, 616)
-[16:50:48.854] [Info] Placing dungeon at (838, 608)
-[16:50:48.879] [Info] Placing dungeon at (452, 627)
-[16:50:48.883] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
-[16:50:48.885] [Info] Placing dungeon at (308, 640)
-[16:50:48.888] [Info] Placing dungeon at (931, 608)
-[16:50:48.907] [Info] Placing dungeon at (611, 645)
-[16:50:48.912] [Info] Placing dungeon at (805, 608)
-[16:50:48.926] [Info] Placing dungeon at (444, 561)
-[16:50:48.930] [Info] Placing dungeon at (964, 608)
-[16:50:48.951] [Info] Placing dungeon at (757, 597)
-[16:50:48.973] [Info] Placing dungeon at (355, 636)
-[16:50:48.978] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[16:50:48.980] [Info] Placing dungeon at (355, 636)
-[16:50:48.986] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[16:50:48.988] [Info] Placing dungeon at (447, 567)
-[16:50:49.001] [Info] Placing dungeon at (429, 567)
-[16:50:49.303] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-=outpost
-[16:50:50.061] [Info] Client received world stop packet, leaving: Removed
-[16:50:50.081] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:50:50.300] [Info] ----- FU player init -----
-[16:50:50.301] [Info] ----- End FU player init -----
-[16:50:50.301] [Info] ----- ZB player init -----
-[16:50:50.301] [Info] [ZB] Mods using update info window and their versions:
-[16:50:50.301] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:50:50.301] [Info] -- ztarbound   [Version 6.1.11]
-[16:50:50.301] [Info] ----- end ZB player init -----
-[16:54:40.596] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[16:54:40.894] [Info] Protected dungeonIds for world set to (65524)
-[16:54:42.125] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[16:54:42.137] [Info] Client received world stop packet, leaving: Removed
-[16:54:42.274] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
-[16:54:42.629] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
-[16:54:48.100] [Info] ----- FU player init -----
-[16:54:48.100] [Info] ----- End FU player init -----
-[16:54:48.100] [Info] ----- ZB player init -----
-[16:54:48.100] [Info] [ZB] Mods using update info window and their versions:
-[16:54:48.101] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:54:48.101] [Info] -- ztarbound   [Version 6.1.11]
-[16:54:48.101] [Info] ----- end ZB player init -----
-[16:55:52.127] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
-[16:55:52.428] [Info] Protected dungeonIds for world set to (1, 65524)
-[16:55:52.532] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
-[16:55:52.646] [Info] Client received world stop packet, leaving: Removed
-[16:55:53.256] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[16:55:59.161] [Info] ----- FU player init -----
-[16:55:59.161] [Info] ----- End FU player init -----
-[16:55:59.161] [Info] ----- ZB player init -----
-[16:55:59.161] [Info] [ZB] Mods using update info window and their versions:
-[16:55:59.161] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:55:59.162] [Info] -- ztarbound   [Version 6.1.11]
-[16:55:59.162] [Info] ----- end ZB player init -----
-[16:56:33.105] [Info] UniverseServer: Expiring temporary world InstanceWorld:spaceencounter:e8cc031a78ecda0fcc7427f29a719ef4:5
-[16:59:24.874] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:59:25.431] [Info] Protected dungeonIds for world set to (65524)
-[16:59:32.130] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:59:32.137] [Info] Client received world stop packet, leaving: Removed
-[16:59:32.165] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
-[16:59:33.129] [Info] ----- FU player init -----
-[16:59:33.130] [Info] ----- End FU player init -----
-[16:59:33.130] [Info] ----- ZB player init -----
-[16:59:33.130] [Info] [ZB] Mods using update info window and their versions:
-[16:59:33.131] [Info] -- ztarbound   [Version 6.1.11]
-[16:59:33.131] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:59:33.131] [Info] ----- end ZB player init -----
-[16:59:41.421] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[16:59:41.707] [Info] Protected dungeonIds for world set to (65524)
-[16:59:42.750] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[16:59:42.768] [Info] Client received world stop packet, leaving: Removed
-[16:59:42.807] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[16:59:43.202] [Info] ----- FU player init -----
-[16:59:43.203] [Info] ----- End FU player init -----
-[16:59:43.203] [Info] ----- ZB player init -----
-[16:59:43.203] [Info] [ZB] Mods using update info window and their versions:
-[16:59:43.203] [Info] -- frackinuniverse   [Version 6.1.11]
-[16:59:43.203] [Info] -- ztarbound   [Version 6.1.11]
-[16:59:43.203] [Info] ----- end ZB player init -----
-[17:01:23.246] [Info] UniverseServer: Loading celestial world 445527462:603103048:-145446809:5
-[17:01:23.470] [Info] Protected dungeonIds for world set to (65524)
-[17:01:23.652] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527462:603103048:-145446809:5=801fe9a536c4b951e343081cd28f8111
-[17:01:23.682] [Info] Client received world stop packet, leaving: Removed
-[17:01:23.813] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[17:01:29.643] [Info] ----- FU player init -----
-[17:01:29.643] [Info] ----- End FU player init -----
-[17:01:29.643] [Info] ----- ZB player init -----
-[17:01:29.643] [Info] [ZB] Mods using update info window and their versions:
-[17:01:29.644] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:01:29.644] [Info] -- ztarbound   [Version 6.1.11]
-[17:01:29.644] [Info] ----- end ZB player init -----
-[17:02:04.808] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:02:05.314] [Info] Protected dungeonIds for world set to (65524)
-[17:02:12.111] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:02:12.119] [Info] Client received world stop packet, leaving: Removed
-[17:02:12.120] [Info] UniverseServer: Stopping idle world CelestialWorld:445527462:603103048:-145446809:5
-[17:02:13.099] [Info] ----- FU player init -----
-[17:02:13.100] [Info] ----- End FU player init -----
-[17:02:13.100] [Info] ----- ZB player init -----
-[17:02:13.100] [Info] [ZB] Mods using update info window and their versions:
-[17:02:13.100] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:02:13.100] [Info] -- ztarbound   [Version 6.1.11]
-[17:02:13.100] [Info] ----- end ZB player init -----
-[17:02:20.506] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[17:02:20.804] [Info] Protected dungeonIds for world set to (65524)
-[17:02:21.020] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[17:02:21.089] [Info] Client received world stop packet, leaving: Removed
-[17:02:21.884] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:02:22.175] [Info] ----- FU player init -----
-[17:02:22.175] [Info] ----- End FU player init -----
-[17:02:22.175] [Info] ----- ZB player init -----
-[17:02:22.175] [Info] [ZB] Mods using update info window and their versions:
-[17:02:22.175] [Info] -- ztarbound   [Version 6.1.11]
-[17:02:22.175] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:02:22.175] [Info] ----- end ZB player init -----
-[17:08:20.021] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
-[17:08:20.032] [Info] Protected dungeonIds for world set to (65524)
-[17:08:20.032] [Info] Placing dungeon outpost
-[17:08:20.038] [Info] Placing dungeon at (0, 750)
-[17:08:23.857] [Info] Protected dungeonIds for world set to (0, 65524)
-[17:08:24.721] [Info] Placing dungeon at (406, 651)
-[17:08:24.724] [Info] Placing dungeon at (332, 621)
-[17:08:24.727] [Info] Placing dungeon at (332, 655)
-[17:08:24.767] [Info] Placing dungeon at (427, 618)
-[17:08:24.770] [Info] Placing dungeon at (310, 616)
-[17:08:24.771] [Info] Placing dungeon at (838, 608)
-[17:08:24.796] [Info] Placing dungeon at (452, 627)
-[17:08:24.801] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
-[17:08:24.801] [Info] Placing dungeon at (308, 640)
-[17:08:24.803] [Info] Placing dungeon at (931, 608)
-[17:08:24.821] [Info] Placing dungeon at (611, 645)
-[17:08:24.824] [Info] Placing dungeon at (805, 608)
-[17:08:24.837] [Info] Placing dungeon at (444, 561)
-[17:08:24.838] [Info] Placing dungeon at (964, 608)
-[17:08:24.859] [Info] Placing dungeon at (757, 597)
-[17:08:24.880] [Info] Placing dungeon at (355, 636)
-[17:08:24.886] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[17:08:24.887] [Info] Placing dungeon at (355, 636)
-[17:08:24.892] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
-[17:08:24.892] [Info] Placing dungeon at (447, 567)
-[17:08:24.903] [Info] Placing dungeon at (429, 567)
-[17:08:25.943] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-=outpost
-[17:08:25.975] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[17:08:25.988] [Info] Client received world stop packet, leaving: Removed
-[17:08:31.628] [Info] ----- FU player init -----
-[17:08:31.629] [Info] ----- End FU player init -----
-[17:08:31.629] [Info] ----- ZB player init -----
-[17:08:31.629] [Info] [ZB] Mods using update info window and their versions:
-[17:08:31.630] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:08:31.630] [Info] -- ztarbound   [Version 6.1.11]
-[17:08:31.630] [Info] ----- end ZB player init -----
-[17:09:11.229] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:09:11.779] [Info] Protected dungeonIds for world set to (65524)
-[17:09:12.754] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:09:12.757] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
-[17:09:12.758] [Info] Client received world stop packet, leaving: Removed
-[17:09:13.041] [Info] ----- FU player init -----
-[17:09:13.041] [Info] ----- End FU player init -----
-[17:09:13.041] [Info] ----- ZB player init -----
-[17:09:13.041] [Info] [ZB] Mods using update info window and their versions:
-[17:09:13.042] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:09:13.042] [Info] -- ztarbound   [Version 6.1.11]
-[17:09:13.042] [Info] ----- end ZB player init -----
-[17:09:13.106] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
-[17:10:20.257] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+[21:48:21.484] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
 (ImageOperationException) Error reading ImageOperation
 Caused by: (OutOfRangeException) out of range list::at(1)
-[17:13:33.044] [Info] UniverseServer: Loading temporary instance world InstanceWorld:spaceencounter:83c3da146fe38ce090bc912ad9f34586:5 from storage
-[17:13:33.047] [Info] Protected dungeonIds for world set to (0, 65524)
-[17:13:33.240] [Info] UniverseServer: Warping player 1 to InstanceWorld:spaceencounter:83c3da146fe38ce090bc912ad9f34586:5
-[17:13:33.254] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:13:33.260] [Info] Client received world stop packet, leaving: Removed
-[17:13:34.175] [Info] ----- FU player init -----
-[17:13:34.176] [Info] ----- End FU player init -----
-[17:13:34.176] [Info] ----- ZB player init -----
-[17:13:34.176] [Info] [ZB] Mods using update info window and their versions:
-[17:13:34.177] [Info] -- ztarbound   [Version 6.1.11]
-[17:13:34.177] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:13:34.177] [Info] ----- end ZB player init -----
-[17:13:58.800] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[17:24:02.584] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:24:03.087] [Info] Protected dungeonIds for world set to (65524)
-[17:24:09.888] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:24:09.930] [Info] Client received world stop packet, leaving: Removed
-[17:24:09.961] [Info] UniverseServer: Stopping idle world InstanceWorld:spaceencounter:83c3da146fe38ce090bc912ad9f34586:5
-[17:24:10.846] [Info] ----- FU player init -----
-[17:24:10.846] [Info] ----- End FU player init -----
-[17:24:10.846] [Info] ----- ZB player init -----
-[17:24:10.846] [Info] [ZB] Mods using update info window and their versions:
-[17:24:10.847] [Info] -- ztarbound   [Version 6.1.11]
-[17:24:10.847] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:24:10.847] [Info] ----- end ZB player init -----
-[17:24:24.396] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[17:27:01.003] [Info] Flying ship for player 1 to 445527283:603103077:1710103
-[17:27:05.254] [Info] UniverseServer: Arriving ship for player 1 at 445527283:603103077:1710103
-[17:27:12.357] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:spaceencounter:5c26181525c472136cc6692a7db7b41c:5' with expiry time 600000
-[17:27:12.367] [Info] Protected dungeonIds for world set to (65524)
-[17:27:12.367] [Info] Placing dungeon spaceencounter
-[17:27:12.369] [Info] Placing dungeon at (0, 150)
-[17:27:13.074] [Info] Protected dungeonIds for world set to (0, 65524)
-[17:27:13.562] [Info] UniverseServer: Warping player 1 to InstanceWorld:spaceencounter:5c26181525c472136cc6692a7db7b41c:5
-[17:27:14.080] [Info] Client received world stop packet, leaving: Removed
-[17:27:14.090] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:27:15.026] [Info] ----- FU player init -----
-[17:27:15.027] [Info] ----- End FU player init -----
-[17:27:15.027] [Info] ----- ZB player init -----
-[17:27:15.027] [Info] [ZB] Mods using update info window and their versions:
-[17:27:15.028] [Info] -- ztarbound   [Version 6.1.11]
-[17:27:15.028] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:27:15.028] [Info] ----- end ZB player init -----
-[17:27:24.600] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[17:29:13.357] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:29:13.890] [Info] Protected dungeonIds for world set to (65524)
-[17:29:20.733] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:29:20.737] [Info] UniverseServer: Stopping idle world InstanceWorld:spaceencounter:5c26181525c472136cc6692a7db7b41c:5
-[17:29:20.741] [Info] Client received world stop packet, leaving: Removed
-[17:29:21.653] [Info] ----- FU player init -----
-[17:29:21.653] [Info] ----- End FU player init -----
-[17:29:21.653] [Info] ----- ZB player init -----
-[17:29:21.653] [Info] [ZB] Mods using update info window and their versions:
-[17:29:21.654] [Info] -- ztarbound   [Version 6.1.11]
-[17:29:21.654] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:29:21.654] [Info] ----- end ZB player init -----
-[17:29:30.791] [Info] Flying ship for player 1 to 445527283:603103077:1710103
-[17:29:35.477] [Info] UniverseServer: Arriving ship for player 1 at 445527283:603103077:1710103
-[17:29:40.877] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:spaceencounter:eb4039868ce5df1720f8de36fe9e6431:5' with expiry time 600000
-[17:29:40.898] [Info] Protected dungeonIds for world set to (65524)
-[17:29:40.898] [Info] Placing dungeon spaceencounter
-[17:29:40.899] [Info] Placing dungeon at (0, 150)
-[17:29:41.483] [Info] Protected dungeonIds for world set to (0, 65524)
-[17:29:42.211] [Info] UniverseServer: Warping player 1 to InstanceWorld:spaceencounter:eb4039868ce5df1720f8de36fe9e6431:5
-[17:29:42.225] [Info] Client received world stop packet, leaving: Removed
-[17:29:42.742] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:29:43.354] [Info] ----- FU player init -----
-[17:29:43.354] [Info] ----- End FU player init -----
-[17:29:43.354] [Info] ----- ZB player init -----
-[17:29:43.354] [Info] [ZB] Mods using update info window and their versions:
-[17:29:43.354] [Info] -- ztarbound   [Version 6.1.11]
-[17:29:43.354] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:29:43.354] [Info] ----- end ZB player init -----
-[17:34:16.082] [Info] UniverseServer: Expiring temporary world InstanceWorld:spaceencounter:83c3da146fe38ce090bc912ad9f34586:5
-[17:34:41.782] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:34:42.326] [Info] Protected dungeonIds for world set to (65524)
-[17:34:49.213] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:34:49.222] [Info] UniverseServer: Stopping idle world InstanceWorld:spaceencounter:eb4039868ce5df1720f8de36fe9e6431:5
-[17:34:49.231] [Info] Client received world stop packet, leaving: Removed
-[17:34:50.116] [Info] ----- FU player init -----
-[17:34:50.116] [Info] ----- End FU player init -----
-[17:34:50.116] [Info] ----- ZB player init -----
-[17:34:50.116] [Info] [ZB] Mods using update info window and their versions:
-[17:34:50.116] [Info] -- ztarbound   [Version 6.1.11]
-[17:34:50.116] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:34:50.116] [Info] ----- end ZB player init -----
-[17:34:59.409] [Info] Flying ship for player 1 to 445527283:603103077:1710103
-[17:35:08.983] [Info] UniverseServer: Arriving ship for player 1 at 445527283:603103077:1710103
-[17:35:17.047] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:researchship:d2808c49f586753e962b56cf03e1baf1:1' with expiry time 600000
-[17:35:17.076] [Info] Protected dungeonIds for world set to (65524)
-[17:35:17.076] [Info] Placing dungeon researchship
-[17:35:17.076] [Info] Placing dungeon at (0, 150)
-[17:35:17.227] [Info] Protected dungeonIds for world set to (0, 65524)
-[17:35:17.409] [Info] UniverseServer: Warping player 1 to InstanceWorld:researchship:d2808c49f586753e962b56cf03e1baf1:1
-[17:35:17.414] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:35:17.417] [Info] Client received world stop packet, leaving: Removed
-[17:35:17.620] [Info] ----- FU player init -----
-[17:35:17.620] [Info] ----- End FU player init -----
-[17:35:17.620] [Info] ----- ZB player init -----
-[17:35:17.620] [Info] [ZB] Mods using update info window and their versions:
-[17:35:17.620] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:35:17.621] [Info] -- ztarbound   [Version 6.1.11]
-[17:35:17.621] [Info] ----- end ZB player init -----
-[17:36:19.159] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:36:19.691] [Info] Protected dungeonIds for world set to (65524)
-[17:36:26.473] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:36:26.491] [Info] Client received world stop packet, leaving: Removed
-[17:36:26.499] [Info] UniverseServer: Stopping idle world InstanceWorld:researchship:d2808c49f586753e962b56cf03e1baf1:1
-[17:36:27.391] [Info] ----- FU player init -----
-[17:36:27.391] [Info] ----- End FU player init -----
-[17:36:27.391] [Info] ----- ZB player init -----
-[17:36:27.391] [Info] [ZB] Mods using update info window and their versions:
-[17:36:27.392] [Info] -- ztarbound   [Version 6.1.11]
-[17:36:27.392] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:36:27.392] [Info] ----- end ZB player init -----
-[17:37:51.389] [Info] Flying ship for player 1 to 445527476:603103146:75853431
-[17:37:51.389] [Info] UniverseServer: Creating new system world at location (445527476, 603103146, 75853431)
-[17:37:51.393] [Info] UniverseServer: Arriving ship for player 1 at 445527476:603103146:75853431
-[17:38:04.453] [Info] Flying ship for player 1 to 445527476:603103146:75853431
-[17:38:06.986] [Info] UniverseServer: Arriving ship for player 1 at 445527476:603103146:75853431
-[17:38:10.045] [Info] Flying ship for player 1 to 445527476:603103146:75853431:8
-[17:38:10.953] [Info] UniverseServer: Creating celestial world 445527476:603103146:75853431:8
-[17:38:11.465] [Info] Protected dungeonIds for world set to (65524)
-[17:38:11.465] [Info] Placing dungeon humanbunker
-[17:38:11.528] [Info] Placing dungeon at (665, 1700)
-[17:38:12.667] [Warn] Failed to place dungeon object: woodenbed2 direction: 1 position: (975, 1638)
-[17:38:12.672] [Warn] Failed to place dungeon object: fluorescentlight direction: 0 position: (875, 1640)
-[17:38:12.672] [Warn] Failed to place dungeon object: fluorescentlight direction: 0 position: (893, 1640)
-[17:38:12.697] [Warn] Failed to place dungeon object: woodenchair direction: 1 position: (931, 1649)
-[17:38:12.739] [Warn] Failed to place dungeon object: woodenbed2 direction: 1 position: (934, 1659)
-[17:38:12.742] [Warn] Failed to place dungeon object: woodenbed2 direction: 1 position: (984, 1659)
-[17:38:12.760] [Warn] Failed to place dungeon object: fluorescentlight direction: 0 position: (780, 1663)
-[17:38:12.760] [Warn] Failed to place dungeon object: fluorescentlight direction: 0 position: (798, 1663)
-[17:38:12.783] [Warn] Failed to place dungeon object: metalbarrel1 direction: 0 position: (742, 1670)
-[17:38:13.774] [Info] Placing dungeon fungalden
-[17:38:14.557] [Info] Placing dungeon at (4657, 1700)
-[17:38:18.070] [Info] Protected dungeonIds for world set to (1, 65524)
-[17:38:23.203] [Info] UniverseServer: Arriving ship for player 1 at 445527476:603103146:75853431:8
-[17:38:23.244] [Info] UniverseServer: Stopping idle world CelestialWorld:445527476:603103146:75853431:8
-[17:38:29.748] [Info] UniverseServer: Loading celestial world 445527476:603103146:75853431:8
-[17:38:30.269] [Info] Protected dungeonIds for world set to (1, 65524)
-[17:38:30.369] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527476:603103146:75853431:8
-[17:38:30.388] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:38:30.391] [Info] Client received world stop packet, leaving: Removed
-[17:38:36.793] [Info] ----- FU player init -----
-[17:38:36.793] [Info] ----- End FU player init -----
-[17:38:36.793] [Info] ----- ZB player init -----
-[17:38:36.794] [Info] [ZB] Mods using update info window and their versions:
-[17:38:36.795] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:38:36.795] [Info] -- ztarbound   [Version 6.1.11]
-[17:38:36.795] [Info] ----- end ZB player init -----
-[17:38:38.553] [Info] Find bounty manager
-[17:38:38.568] [Info] Chat: <Captain Noble> Your target could be anywhere on this planet, even underground! Explore the planet until we pick up the target's signature, partner!
-[17:38:39.091] [Info] QM: Player d0699a9bb7be5336b8e8001eff1a6267 started 9509b779b7308eb5ec9b704090a8d753
-[17:38:39.092] [Info] Get location 9509b779b7308eb5ec9b704090a8d753 clue
-[17:38:39.092] [Info] Create location 9509b779b7308eb5ec9b704090a8d753 clue dungeon
-[17:38:39.093] [Info] Get location 9509b779b7308eb5ec9b704090a8d753 clue
-[17:38:39.093] [Info] Get location 9509b779b7308eb5ec9b704090a8d753 clue
-[17:38:39.093] [Info] Get location 9509b779b7308eb5ec9b704090a8d753 clue
-[17:38:42.034] [Info] placed bounty dungeon at {1: 3434, 2: 1566}
-[17:38:42.034] [Info] Protected dungeonIds for world set to (1, 65519, 65524)
-[17:38:42.034] [Info] Protect dungeon id 65519
-[17:38:50.359] [Info] Protected dungeonIds for world set to (1, 65524)
-[17:38:50.360] [Info] Placed object true at {1: 3434, 2: 1544}
-[17:38:50.360] [Info] Protected dungeonIds for world set to (1, 65519, 65524)
-[17:38:50.578] [Info] Chat: <Captain Noble> We've picked up the target signature! Your compass will show you the direction - follow it, partner!
-[17:39:20.817] [Info] UniverseServer: Expiring temporary world InstanceWorld:spaceencounter:5c26181525c472136cc6692a7db7b41c:5
-[17:40:11.009] [Error] Could not load audio asset '/music/Five-years.ogg', using placeholder default.
-(AssetException) No such asset '/music/Five-years.ogg'
-[17:40:29.036] [Info] QM: Participant died: 6c62c96430a17ae534956c6b86565fcf
-[17:40:29.036] [Info] QM: Notify d0699a9bb7be5336b8e8001eff1a6267 of 6c62c96430a17ae534956c6b86565fcf death
-[17:40:29.042] [Info] QM: Participant died: 6c62c96430a17ae534956c6b86565fcf
-[17:40:29.042] [Info] QM: Notify d0699a9bb7be5336b8e8001eff1a6267 of 6c62c96430a17ae534956c6b86565fcf death
-[17:41:22.417] [Info] Complete message: Nice work findin' all those clues, partner! You have enough info to track down the rowdy ^green;Captain Ignoble^reset; now!
-[17:41:22.420] [Info] Send playerCompleted message
-[17:41:22.442] [Info] Chat: <Captain Noble> Nice work findin' all those clues, partner! You have enough info to track down the rowdy Captain Ignoble now!
-[17:41:22.449] [Info] QM: Player d0699a9bb7be5336b8e8001eff1a6267 completed 9509b779b7308eb5ec9b704090a8d753
-[17:41:22.449] [Info] Player d0699a9bb7be5336b8e8001eff1a6267 completed 9509b779b7308eb5ec9b704090a8d753
-[17:41:22.449] [Info] QM: Die
-[17:41:22.449] [Info] Unprotect dungeon ids {1: 65519}
-[17:41:22.449] [Info] Protected dungeonIds for world set to (1, 65524)
-[17:41:42.980] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:41:43.536] [Info] Protected dungeonIds for world set to (65524)
-[17:41:50.355] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:41:50.358] [Info] Client received world stop packet, leaving: Removed
-[17:41:50.361] [Info] UniverseServer: Stopping idle world CelestialWorld:445527476:603103146:75853431:8
-[17:41:51.350] [Info] ----- FU player init -----
-[17:41:51.350] [Info] ----- End FU player init -----
-[17:41:51.350] [Info] ----- ZB player init -----
-[17:41:51.350] [Info] [ZB] Mods using update info window and their versions:
-[17:41:51.351] [Info] -- ztarbound   [Version 6.1.11]
-[17:41:51.351] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:41:51.351] [Info] ----- end ZB player init -----
-[17:42:04.195] [Info] Flying ship for player 1 to 445527476:603103146:75853431
-[17:42:07.330] [Info] UniverseServer: Arriving ship for player 1 at 445527476:603103146:75853431
-[17:42:13.356] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:merchantindustrialship:63f636f282c0263c240d93c50ee7ccb6:1' with expiry time 600000
-[17:42:13.366] [Info] Protected dungeonIds for world set to (65524)
-[17:42:13.366] [Info] Placing dungeon merchantindustrialship
-[17:42:13.367] [Info] Placing dungeon at (0, 150)
-[17:42:13.635] [Info] Protected dungeonIds for world set to (0, 65524)
-[17:42:13.922] [Info] UniverseServer: Warping player 1 to InstanceWorld:merchantindustrialship:63f636f282c0263c240d93c50ee7ccb6:1
-[17:42:13.927] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:42:13.943] [Info] Client received world stop packet, leaving: Removed
-[17:42:14.151] [Info] ----- FU player init -----
-[17:42:14.151] [Info] ----- End FU player init -----
-[17:42:14.151] [Info] ----- ZB player init -----
-[17:42:14.151] [Info] [ZB] Mods using update info window and their versions:
-[17:42:14.151] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:42:14.151] [Info] -- ztarbound   [Version 6.1.11]
-[17:42:14.151] [Info] ----- end ZB player init -----
-[17:44:02.645] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+[21:50:18.889] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
 (ImageOperationException) Error reading ImageOperation
 Caused by: (OutOfRangeException) out of range list::at(1)
-[17:44:24.800] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:44:25.405] [Info] Protected dungeonIds for world set to (65524)
-[17:44:32.330] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:44:32.347] [Info] Client received world stop packet, leaving: Removed
-[17:44:32.366] [Info] UniverseServer: Stopping idle world InstanceWorld:merchantindustrialship:63f636f282c0263c240d93c50ee7ccb6:1
-[17:44:33.345] [Info] ----- FU player init -----
-[17:44:33.345] [Info] ----- End FU player init -----
-[17:44:33.345] [Info] ----- ZB player init -----
-[17:44:33.346] [Info] [ZB] Mods using update info window and their versions:
-[17:44:33.346] [Info] -- ztarbound   [Version 6.1.11]
-[17:44:33.346] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:44:33.346] [Info] ----- end ZB player init -----
-[17:44:50.646] [Info] UniverseServer: Expiring temporary world InstanceWorld:spaceencounter:eb4039868ce5df1720f8de36fe9e6431:5
-[17:44:59.427] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[17:44:59.706] [Info] Protected dungeonIds for world set to (65524)
-[17:45:00.784] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[17:45:00.790] [Info] Client received world stop packet, leaving: Removed
-[17:45:00.846] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:45:01.269] [Info] ----- FU player init -----
-[17:45:01.269] [Info] ----- End FU player init -----
-[17:45:01.269] [Info] ----- ZB player init -----
-[17:45:01.269] [Info] [ZB] Mods using update info window and their versions:
-[17:45:01.269] [Info] -- ztarbound   [Version 6.1.11]
-[17:45:01.269] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:45:01.269] [Info] ----- end ZB player init -----
-[17:45:30.487] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:45:30.990] [Info] Protected dungeonIds for world set to (65524)
-[17:45:31.909] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:45:31.912] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[17:45:31.921] [Info] Client received world stop packet, leaving: Removed
-[17:45:32.259] [Info] ----- FU player init -----
-[17:45:32.260] [Info] ----- End FU player init -----
-[17:45:32.260] [Info] ----- ZB player init -----
-[17:45:32.260] [Info] [ZB] Mods using update info window and their versions:
-[17:45:32.260] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:45:32.260] [Info] -- ztarbound   [Version 6.1.11]
-[17:45:32.260] [Info] ----- end ZB player init -----
-[17:46:27.974] [Info] UniverseServer: Expiring temporary world InstanceWorld:researchship:d2808c49f586753e962b56cf03e1baf1:1
-[17:47:44.720] [Info] Flying ship for player 1 to 445527476:603103146:75853431
-[17:47:48.883] [Info] UniverseServer: Arriving ship for player 1 at 445527476:603103146:75853431
-[17:48:04.578] [Info] Flying ship for player 1 to 445527476:603103146:75853431:7:2
-[17:48:05.599] [Info] UniverseServer: Creating celestial world 445527476:603103146:75853431:7:2
-[17:48:05.838] [Info] Protected dungeonIds for world set to (65524)
-[17:48:05.838] [Info] Placing dungeon oceanfrontcity
-[17:48:06.429] [Info] Placing dungeon at (1636, 675)
-[17:48:07.567] [Warn] Failed to place dungeon object: protectorateradio direction: 1 position: (1220, 692)
-[17:48:07.580] [Warn] Failed to place dungeon object: protectorateradio direction: 1 position: (2200, 692)
-[17:48:07.662] [Warn] Failed to place dungeon object: wickerbasket5 direction: 1 position: (2351, 705)
-[17:48:08.521] [Info] Protected dungeonIds for world set to (0, 65524)
-[17:48:11.786] [Info] UniverseServer: Arriving ship for player 1 at 445527476:603103146:75853431:7:2
-[17:48:11.786] [Info] UniverseServer: Stopping idle world CelestialWorld:445527476:603103146:75853431:7:2
-[17:48:25.195] [Info] UniverseServer: Loading celestial world 445527476:603103146:75853431:7:2
-[17:48:25.481] [Info] Protected dungeonIds for world set to (0, 65524)
-[17:48:25.907] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527476:603103146:75853431:7:2
-[17:48:25.915] [Info] Client received world stop packet, leaving: Removed
-[17:48:25.921] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:48:32.003] [Info] ----- FU player init -----
-[17:48:32.003] [Info] ----- End FU player init -----
-[17:48:32.003] [Info] ----- ZB player init -----
-[17:48:32.003] [Info] [ZB] Mods using update info window and their versions:
-[17:48:32.005] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:48:32.005] [Info] -- ztarbound   [Version 6.1.11]
-[17:48:32.005] [Info] ----- end ZB player init -----
-[17:48:33.661] [Info] Find bounty manager
-[17:48:34.159] [Info] QM: Player d0699a9bb7be5336b8e8001eff1a6267 started e623fa2e840fff6b0dc184302d4ebd42
-[17:48:34.176] [Info] Get location e623fa2e840fff6b0dc184302d4ebd42 bounty
-[17:48:34.176] [Info] Create location e623fa2e840fff6b0dc184302d4ebd42 bounty dungeon
-[17:48:34.181] [Info] Get location e623fa2e840fff6b0dc184302d4ebd42 bounty
-[17:48:35.800] [Info] placed bounty dungeon at {1: 716, 2: 673}
-[17:48:35.800] [Info] Protected dungeonIds for world set to (0, 65519, 65524)
-[17:48:35.800] [Info] Protect dungeon id 65519
-[17:48:39.573] [Info] Protected dungeonIds for world set to (0, 65524)
-[17:48:39.573] [Info] Protected dungeonIds for world set to (0, 65519, 65524)
-[17:49:14.485] [Info] QM: Participant died: 432a369bacbe63f7e82bbaec9fe58b64
-[17:49:14.485] [Info] QM: Notify d0699a9bb7be5336b8e8001eff1a6267 of 432a369bacbe63f7e82bbaec9fe58b64 death
-[17:49:14.490] [Info] QM: Participant died: 432a369bacbe63f7e82bbaec9fe58b64
-[17:49:14.490] [Info] QM: Notify d0699a9bb7be5336b8e8001eff1a6267 of 432a369bacbe63f7e82bbaec9fe58b64 death
-[17:49:14.514] [Info] Complete message: I can't believe it, partner! You took down the mysterious and handsome ^orange;Captain Ignoble^reset;! ^orange;Return to the Peacekeeper Station^reset; for a new assignment.
-[17:49:14.515] [Info] Send playerCompleted message
-[17:49:14.524] [Info] QM: Player d0699a9bb7be5336b8e8001eff1a6267 completed e623fa2e840fff6b0dc184302d4ebd42
-[17:49:14.524] [Info] Player d0699a9bb7be5336b8e8001eff1a6267 completed e623fa2e840fff6b0dc184302d4ebd42
-[17:49:14.524] [Info] QM: Die
-[17:49:14.524] [Info] Unprotect dungeon ids {1: 65519}
-[17:49:14.524] [Info] Protected dungeonIds for world set to (0, 65524)
-[17:49:14.539] [Info] Chat: <Captain Noble> I can't believe it, partner! You took down the mysterious and handsome Captain Ignoble! Return to the Peacekeeper Station for a new assignment.
-[17:50:12.669] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:50:13.186] [Info] Protected dungeonIds for world set to (65524)
-[17:50:20.099] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:50:20.131] [Info] Client received world stop packet, leaving: Removed
-[17:50:20.161] [Info] UniverseServer: Stopping idle world CelestialWorld:445527476:603103146:75853431:7:2
-[17:50:21.137] [Info] ----- FU player init -----
-[17:50:21.137] [Info] ----- End FU player init -----
-[17:50:21.137] [Info] ----- ZB player init -----
-[17:50:21.137] [Info] [ZB] Mods using update info window and their versions:
-[17:50:21.138] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:50:21.138] [Info] -- ztarbound   [Version 6.1.11]
-[17:50:21.138] [Info] ----- end ZB player init -----
-[17:50:42.437] [Info] Flying ship for player 1 to 445527476:603103146:75853431
-[17:50:52.870] [Info] UniverseServer: Arriving ship for player 1 at 445527476:603103146:75853431
-[17:51:20.203] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:apexweaponsplatform:c6c5290bcf944b5b52f9af3f1487e0ae:3' with expiry time 600000
-[17:51:20.218] [Info] Protected dungeonIds for world set to (65524)
-[17:51:20.218] [Info] Placing dungeon apexweaponsplatform
-[17:51:20.219] [Info] Placing dungeon at (0, 250)
-[17:51:20.961] [Warn] Failed to place dungeon object: encounterboosterflame direction: 0 position: (275, 115)
-[17:51:20.998] [Warn] Failed to place dungeon object: encounterboosterflame direction: 0 position: (275, 125)
-[17:51:21.033] [Warn] Failed to place dungeon object: bunkertv direction: 1 position: (168, 132)
-[17:51:21.047] [Warn] Failed to place dungeon object: encounterboosterflame direction: 0 position: (275, 135)
-[17:51:21.064] [Warn] Failed to place dungeon object: encounterboosterflame direction: 0 position: (275, 145)
-[17:51:21.663] [Info] Protected dungeonIds for world set to (0, 65524)
-[17:51:22.821] [Info] UniverseServer: Warping player 1 to InstanceWorld:apexweaponsplatform:c6c5290bcf944b5b52f9af3f1487e0ae:3
-[17:51:23.455] [Info] Client received world stop packet, leaving: Removed
-[17:51:23.472] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:51:29.665] [Info] ----- FU player init -----
-[17:51:29.665] [Info] ----- End FU player init -----
-[17:51:29.665] [Info] ----- ZB player init -----
-[17:51:29.665] [Info] [ZB] Mods using update info window and their versions:
-[17:51:29.666] [Info] -- ztarbound   [Version 6.1.11]
-[17:51:29.666] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:51:29.666] [Info] ----- end ZB player init -----
-[17:53:36.936] [Info] Skipped event recording for nonexistent entity 190
-[17:53:56.722] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
-[17:54:35.460] [Info] UniverseServer: Expiring temporary world InstanceWorld:merchantindustrialship:63f636f282c0263c240d93c50ee7ccb6:1
-[17:59:39.397] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:59:39.928] [Info] Protected dungeonIds for world set to (65524)
-[17:59:46.628] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[17:59:46.654] [Info] UniverseServer: Stopping idle world InstanceWorld:apexweaponsplatform:c6c5290bcf944b5b52f9af3f1487e0ae:3
-[17:59:46.656] [Info] Client received world stop packet, leaving: Removed
-[17:59:47.634] [Info] ----- FU player init -----
-[17:59:47.635] [Info] ----- End FU player init -----
-[17:59:47.635] [Info] ----- ZB player init -----
-[17:59:47.635] [Info] [ZB] Mods using update info window and their versions:
-[17:59:47.635] [Info] -- ztarbound   [Version 6.1.11]
-[17:59:47.635] [Info] -- frackinuniverse   [Version 6.1.11]
-[17:59:47.636] [Info] ----- end ZB player init -----
-[18:00:01.282] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
-[18:00:01.642] [Info] Protected dungeonIds for world set to (1, 65524)
-[18:00:01.827] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
-[18:00:01.931] [Info] Client received world stop packet, leaving: Removed
-[18:00:02.590] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[18:00:03.025] [Info] ----- FU player init -----
-[18:00:03.025] [Info] ----- End FU player init -----
-[18:00:03.025] [Info] ----- ZB player init -----
-[18:00:03.025] [Info] [ZB] Mods using update info window and their versions:
-[18:00:03.025] [Info] -- ztarbound   [Version 6.1.11]
-[18:00:03.025] [Info] -- frackinuniverse   [Version 6.1.11]
-[18:00:03.025] [Info] ----- end ZB player init -----
-[18:00:14.834] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[18:00:15.476] [Info] Protected dungeonIds for world set to (65524)
-[18:00:16.594] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[18:00:16.598] [Info] Client received world stop packet, leaving: Removed
-[18:00:16.620] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
-[18:00:16.956] [Info] ----- FU player init -----
-[18:00:16.956] [Info] ----- End FU player init -----
-[18:00:16.956] [Info] ----- ZB player init -----
-[18:00:16.956] [Info] [ZB] Mods using update info window and their versions:
-[18:00:16.956] [Info] -- ztarbound   [Version 6.1.11]
-[18:00:16.956] [Info] -- frackinuniverse   [Version 6.1.11]
-[18:00:16.956] [Info] ----- end ZB player init -----
-[18:00:21.622] [Info] UniverseServer: Loading temporary instance world InstanceWorld:apexweaponsplatform:c6c5290bcf944b5b52f9af3f1487e0ae:3 from storage
-[18:00:21.625] [Info] Protected dungeonIds for world set to (0, 65524)
-[18:00:21.734] [Info] UniverseServer: Warping player 1 to InstanceWorld:apexweaponsplatform:c6c5290bcf944b5b52f9af3f1487e0ae:3
-[18:00:21.739] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[18:00:21.742] [Info] Client received world stop packet, leaving: Removed
-[18:00:21.984] [Info] ----- FU player init -----
-[18:00:21.984] [Info] ----- End FU player init -----
-[18:00:21.984] [Info] ----- ZB player init -----
-[18:00:21.984] [Info] [ZB] Mods using update info window and their versions:
-[18:00:21.984] [Info] -- ztarbound   [Version 6.1.11]
-[18:00:21.984] [Info] -- frackinuniverse   [Version 6.1.11]
-[18:00:21.984] [Info] ----- end ZB player init -----
-[18:02:04.038] [Info] Skipped event recording for nonexistent entity 826
-[18:02:04.038] [Info] Skipped event recording for nonexistent entity 827
-[18:02:04.038] [Info] Skipped event recording for nonexistent entity 822
-[18:02:04.038] [Info] Skipped event recording for nonexistent entity 821
-[18:02:04.067] [Info] Skipped event recording for nonexistent entity 823
-[18:02:26.962] [Info] Skipped event recording for nonexistent entity 829
-[18:02:26.962] [Info] Skipped event recording for nonexistent entity 830
-[18:02:26.962] [Info] Skipped event recording for nonexistent entity 828
-[18:02:28.767] [Info] Skipped event recording for nonexistent entity 831
-[18:03:18.376] [Info] Skipped event recording for nonexistent entity 960
-[18:03:47.875] [Info] Skipped event recording for nonexistent entity 912
-[18:05:22.134] [Info] Skipped event recording for nonexistent entity 847
-[18:05:22.134] [Info] Skipped event recording for nonexistent entity 848
-[18:06:29.658] [Info] Chat: <SAIL> These little boxes, known as Upgrade Modules, are extremely useful. They will allow you to upgrade your weapons and armor via your Personal Tricorder as well as upgrade your ship license if using the Vanilla Ship option.
-[18:13:53.234] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[18:13:53.727] [Info] Protected dungeonIds for world set to (65524)
-[18:14:00.472] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[18:14:00.517] [Info] Client received world stop packet, leaving: Removed
-[18:14:00.520] [Info] UniverseServer: Stopping idle world InstanceWorld:apexweaponsplatform:c6c5290bcf944b5b52f9af3f1487e0ae:3
-[18:14:01.406] [Info] ----- FU player init -----
-[18:14:01.406] [Info] ----- End FU player init -----
-[18:14:01.407] [Info] ----- ZB player init -----
-[18:14:01.407] [Info] [ZB] Mods using update info window and their versions:
-[18:14:01.407] [Info] -- ztarbound   [Version 6.1.11]
-[18:14:01.407] [Info] -- frackinuniverse   [Version 6.1.11]
-[18:14:01.407] [Info] ----- end ZB player init -----
-[18:21:33.506] [Info] UniverseClient: Client disconnecting...
-[18:21:33.598] [Info] Client received world stop packet, leaving: Removed
-[18:21:33.852] [Info] UniverseServer: Client 'Skippy' <1> (local) disconnected for reason: 
-[18:21:33.853] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[18:21:34.525] [Info] UniverseServer: Stopping UniverseServer
-[18:21:34.568] [Info] Clearing steam rich presence connection
-[18:21:36.311] [Info] Application: quit requested
-[18:21:36.311] [Info] Application: quitting...
-[18:21:36.311] [Info] Application: shutdown...
-[18:21:37.688] [Info] Root: Shutting down Root
-[18:21:41.447] [Info] Application: Destroying SDL Window
-[18:21:41.527] [Info] Application: stopped gracefully
+[21:57:24.096] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[21:57:24.445] [Info] Protected dungeonIds for world set to (1, 65524)
+[21:57:24.691] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
+[21:57:24.834] [Info] Client received world stop packet, leaving: Removed
+[21:57:25.652] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[21:57:27.180] [Info] ----- FU player init -----
+[21:57:27.181] [Info] ----- End FU player init -----
+[21:57:27.181] [Info] ----- ZB player init -----
+[21:57:27.181] [Info] [ZB] Mods using update info window and their versions:
+[21:57:27.181] [Info] -- ztarbound   [Version 6.1.11]
+[21:57:27.181] [Info] -- frackinuniverse   [Version 6.1.11]
+[21:57:27.181] [Info] ----- end ZB player init -----
+[22:01:40.202] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:01:40.913] [Info] Protected dungeonIds for world set to (65524)
+[22:01:48.918] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:01:48.939] [Info] Client received world stop packet, leaving: Removed
+[22:01:48.963] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[22:01:50.166] [Info] ----- FU player init -----
+[22:01:50.166] [Info] ----- End FU player init -----
+[22:01:50.166] [Info] ----- ZB player init -----
+[22:01:50.166] [Info] [ZB] Mods using update info window and their versions:
+[22:01:50.167] [Info] -- ztarbound   [Version 6.1.11]
+[22:01:50.167] [Info] -- frackinuniverse   [Version 6.1.11]
+[22:01:50.167] [Info] ----- end ZB player init -----
+[22:07:08.165] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+(ImageOperationException) Error reading ImageOperation
+Caused by: (OutOfRangeException) out of range list::at(1)
+[22:07:22.085] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[22:07:22.463] [Info] Protected dungeonIds for world set to (1, 65524)
+[22:07:22.655] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
+[22:07:22.780] [Info] Client received world stop packet, leaving: Removed
+[22:07:23.416] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:07:24.744] [Info] ----- FU player init -----
+[22:07:24.744] [Info] ----- End FU player init -----
+[22:07:24.744] [Info] ----- ZB player init -----
+[22:07:24.744] [Info] [ZB] Mods using update info window and their versions:
+[22:07:24.744] [Info] -- ztarbound   [Version 6.1.11]
+[22:07:24.745] [Info] -- frackinuniverse   [Version 6.1.11]
+[22:07:24.745] [Info] ----- end ZB player init -----
+[22:12:18.375] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
+[22:12:18.714] [Info] Protected dungeonIds for world set to (65524)
+[22:12:20.148] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
+[22:12:20.164] [Info] Client received world stop packet, leaving: Removed
+[22:12:20.214] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[22:12:27.016] [Info] ----- FU player init -----
+[22:12:27.017] [Info] ----- End FU player init -----
+[22:12:27.017] [Info] ----- ZB player init -----
+[22:12:27.017] [Info] [ZB] Mods using update info window and their versions:
+[22:12:27.018] [Info] -- ztarbound   [Version 6.1.11]
+[22:12:27.018] [Info] -- frackinuniverse   [Version 6.1.11]
+[22:12:27.018] [Info] ----- end ZB player init -----
+[22:16:20.588] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[22:16:20.919] [Info] Protected dungeonIds for world set to (1, 65524)
+[22:16:21.095] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
+[22:16:21.216] [Info] Client received world stop packet, leaving: Removed
+[22:16:22.300] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
+[22:16:28.551] [Info] ----- FU player init -----
+[22:16:28.551] [Info] ----- End FU player init -----
+[22:16:28.551] [Info] ----- ZB player init -----
+[22:16:28.551] [Info] [ZB] Mods using update info window and their versions:
+[22:16:28.552] [Info] -- frackinuniverse   [Version 6.1.11]
+[22:16:28.552] [Info] -- ztarbound   [Version 6.1.11]
+[22:16:28.552] [Info] ----- end ZB player init -----
+[22:17:26.679] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
+[22:17:26.982] [Info] Protected dungeonIds for world set to (65524)
+[22:17:28.019] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
+[22:17:28.089] [Info] Client received world stop packet, leaving: Removed
+[22:17:28.137] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[22:17:34.245] [Info] ----- FU player init -----
+[22:17:34.246] [Info] ----- End FU player init -----
+[22:17:34.246] [Info] ----- ZB player init -----
+[22:17:34.246] [Info] [ZB] Mods using update info window and their versions:
+[22:17:34.247] [Info] -- frackinuniverse   [Version 6.1.11]
+[22:17:34.248] [Info] -- ztarbound   [Version 6.1.11]
+[22:17:34.248] [Info] ----- end ZB player init -----
+[22:30:58.385] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[22:30:58.831] [Info] Protected dungeonIds for world set to (1, 65524)
+[22:30:58.998] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
+[22:30:59.136] [Info] Client received world stop packet, leaving: Removed
+[22:31:00.245] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
+[22:31:05.624] [Info] ----- FU player init -----
+[22:31:05.624] [Info] ----- End FU player init -----
+[22:31:05.625] [Info] ----- ZB player init -----
+[22:31:05.625] [Info] [ZB] Mods using update info window and their versions:
+[22:31:05.625] [Info] -- ztarbound   [Version 6.1.11]
+[22:31:05.625] [Info] -- frackinuniverse   [Version 6.1.11]
+[22:31:05.626] [Info] ----- end ZB player init -----
+[22:32:29.784] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:32:30.410] [Info] Protected dungeonIds for world set to (65524)
+[22:32:37.498] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:32:37.502] [Info] Client received world stop packet, leaving: Removed
+[22:32:37.504] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[22:32:38.459] [Info] ----- FU player init -----
+[22:32:38.459] [Info] ----- End FU player init -----
+[22:32:38.459] [Info] ----- ZB player init -----
+[22:32:38.459] [Info] [ZB] Mods using update info window and their versions:
+[22:32:38.460] [Info] -- ztarbound   [Version 6.1.11]
+[22:32:38.460] [Info] -- frackinuniverse   [Version 6.1.11]
+[22:32:38.460] [Info] ----- end ZB player init -----
+[22:36:12.704] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+(ImageOperationException) Error reading ImageOperation
+Caused by: (OutOfRangeException) out of range list::at(1)
+[22:45:01.657] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+(ImageOperationException) Error reading ImageOperation
+Caused by: (OutOfRangeException) out of range list::at(1)
+[22:45:44.903] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+(ImageOperationException) Error reading ImageOperation
+Caused by: (OutOfRangeException) out of range list::at(1)
+[22:46:19.225] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+(ImageOperationException) Error reading ImageOperation
+Caused by: (OutOfRangeException) out of range list::at(1)
+[23:01:02.869] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+(ImageOperationException) Error reading ImageOperation
+Caused by: (OutOfRangeException) out of range list::at(1)
+[23:09:16.223] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+(ImageOperationException) Error reading ImageOperation
+Caused by: (OutOfRangeException) out of range list::at(1)
+[23:11:23.060] [Info] Flying ship for player 1 to 445527476:603103146:75853431
+[23:11:27.752] [Info] UniverseServer: Arriving ship for player 1 at 445527476:603103146:75853431
+[23:11:39.083] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:spaceencounter:865e8658985609e4ad98e5b5a85a993a:3' with expiry time 600000
+[23:11:39.103] [Info] Protected dungeonIds for world set to (65524)
+[23:11:39.103] [Info] Placing dungeon spaceencounter
+[23:11:39.105] [Info] Placing dungeon at (0, 150)
+[23:11:40.016] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:11:40.868] [Info] UniverseServer: Warping player 1 to InstanceWorld:spaceencounter:865e8658985609e4ad98e5b5a85a993a:3
+[23:11:41.465] [Info] Client received world stop packet, leaving: Removed
+[23:11:41.473] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:11:42.579] [Info] ----- FU player init -----
+[23:11:42.579] [Info] ----- End FU player init -----
+[23:11:42.579] [Info] ----- ZB player init -----
+[23:11:42.579] [Info] [ZB] Mods using update info window and their versions:
+[23:11:42.580] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:11:42.580] [Info] -- ztarbound   [Version 6.1.11]
+[23:11:42.580] [Info] ----- end ZB player init -----
+[23:11:50.801] [Info] Root: Writing runtime configuration to '..\storage\starbound.config'
+[23:14:25.551] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:14:26.423] [Info] Protected dungeonIds for world set to (65524)
+[23:14:34.419] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:14:34.425] [Info] Client received world stop packet, leaving: Removed
+[23:14:34.452] [Info] UniverseServer: Stopping idle world InstanceWorld:spaceencounter:865e8658985609e4ad98e5b5a85a993a:3
+[23:14:35.391] [Info] ----- FU player init -----
+[23:14:35.392] [Info] ----- End FU player init -----
+[23:14:35.392] [Info] ----- ZB player init -----
+[23:14:35.392] [Info] [ZB] Mods using update info window and their versions:
+[23:14:35.393] [Info] -- ztarbound   [Version 6.1.11]
+[23:14:35.393] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:14:35.393] [Info] ----- end ZB player init -----
+[23:14:45.390] [Info] Flying ship for player 1 to 445527476:603103146:75853431
+[23:14:49.585] [Info] UniverseServer: Arriving ship for player 1 at 445527476:603103146:75853431
+[23:14:55.618] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:spaceencounter:6d9ec6b425dad820fe4713d1d21a8082:3' with expiry time 600000
+[23:14:55.627] [Info] Protected dungeonIds for world set to (65524)
+[23:14:55.627] [Info] Placing dungeon spaceencounter
+[23:14:55.628] [Info] Placing dungeon at (0, 150)
+[23:14:57.191] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:14:57.958] [Info] UniverseServer: Warping player 1 to InstanceWorld:spaceencounter:6d9ec6b425dad820fe4713d1d21a8082:3
+[23:14:58.541] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:14:58.551] [Info] Client received world stop packet, leaving: Removed
+[23:14:58.763] [Info] ----- FU player init -----
+[23:14:58.763] [Info] ----- End FU player init -----
+[23:14:58.763] [Info] ----- ZB player init -----
+[23:14:58.763] [Info] [ZB] Mods using update info window and their versions:
+[23:14:58.763] [Info] -- ztarbound   [Version 6.1.11]
+[23:14:58.763] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:14:58.763] [Info] ----- end ZB player init -----
+[23:17:24.235] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:17:25.032] [Info] Protected dungeonIds for world set to (65524)
+[23:17:32.809] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:17:32.820] [Info] Client received world stop packet, leaving: Removed
+[23:17:32.844] [Info] UniverseServer: Stopping idle world InstanceWorld:spaceencounter:6d9ec6b425dad820fe4713d1d21a8082:3
+[23:17:33.967] [Info] ----- FU player init -----
+[23:17:33.967] [Info] ----- End FU player init -----
+[23:17:33.967] [Info] ----- ZB player init -----
+[23:17:33.968] [Info] [ZB] Mods using update info window and their versions:
+[23:17:33.968] [Info] -- ztarbound   [Version 6.1.11]
+[23:17:33.968] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:17:33.968] [Info] ----- end ZB player init -----
+[23:17:43.498] [Info] Flying ship for player 1 to 445527476:603103146:75853431
+[23:17:56.347] [Info] UniverseServer: Arriving ship for player 1 at 445527476:603103146:75853431
+[23:18:02.211] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:spaceencounter:ddaa8dbbae358cd971e8f4e38a048269:3' with expiry time 600000
+[23:18:02.237] [Info] Protected dungeonIds for world set to (65524)
+[23:18:02.237] [Info] Placing dungeon spaceencounter
+[23:18:02.238] [Info] Placing dungeon at (0, 150)
+[23:18:03.844] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:18:04.729] [Info] UniverseServer: Warping player 1 to InstanceWorld:spaceencounter:ddaa8dbbae358cd971e8f4e38a048269:3
+[23:18:05.351] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:18:05.362] [Info] Client received world stop packet, leaving: Removed
+[23:18:05.580] [Info] ----- FU player init -----
+[23:18:05.580] [Info] ----- End FU player init -----
+[23:18:05.580] [Info] ----- ZB player init -----
+[23:18:05.580] [Info] [ZB] Mods using update info window and their versions:
+[23:18:05.580] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:18:05.580] [Info] -- ztarbound   [Version 6.1.11]
+[23:18:05.580] [Info] ----- end ZB player init -----
+[23:19:28.737] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:19:29.524] [Info] Protected dungeonIds for world set to (65524)
+[23:19:37.804] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:19:37.822] [Info] Client received world stop packet, leaving: Removed
+[23:19:37.837] [Info] UniverseServer: Stopping idle world InstanceWorld:spaceencounter:ddaa8dbbae358cd971e8f4e38a048269:3
+[23:19:38.823] [Info] ----- FU player init -----
+[23:19:38.823] [Info] ----- End FU player init -----
+[23:19:38.823] [Info] ----- ZB player init -----
+[23:19:38.824] [Info] [ZB] Mods using update info window and their versions:
+[23:19:38.825] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:19:38.825] [Info] -- ztarbound   [Version 6.1.11]
+[23:19:38.825] [Info] ----- end ZB player init -----
+[23:21:08.106] [Info] Flying ship for player 1 to 445527468:603103266:-17918708
+[23:21:08.110] [Info] UniverseServer: Creating new system world at location (445527468, 603103266, -17918708)
+[23:21:08.113] [Info] UniverseServer: Arriving ship for player 1 at 445527468:603103266:-17918708
+[23:21:21.711] [Info] Flying ship for player 1 to 445527468:603103266:-17918708
+[23:21:28.536] [Info] UniverseServer: Arriving ship for player 1 at 445527468:603103266:-17918708
+[23:21:37.603] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:pirateship:c3a422fccf8f8ef19ab3ebe04c8b3479:6' with expiry time 600000
+[23:21:37.617] [Info] Protected dungeonIds for world set to (65524)
+[23:21:37.617] [Info] Placing dungeon pirateship
+[23:21:37.617] [Info] Placing dungeon at (0, 150)
+[23:21:38.232] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:21:39.062] [Info] UniverseServer: Warping player 1 to InstanceWorld:pirateship:c3a422fccf8f8ef19ab3ebe04c8b3479:6
+[23:21:39.072] [Info] Client received world stop packet, leaving: Removed
+[23:21:39.601] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:21:45.749] [Info] ----- FU player init -----
+[23:21:45.749] [Info] ----- End FU player init -----
+[23:21:45.749] [Info] ----- ZB player init -----
+[23:21:45.749] [Info] [ZB] Mods using update info window and their versions:
+[23:21:45.750] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:21:45.750] [Info] -- ztarbound   [Version 6.1.11]
+[23:21:45.750] [Info] ----- end ZB player init -----
+[23:24:34.587] [Info] UniverseServer: Expiring temporary world InstanceWorld:spaceencounter:865e8658985609e4ad98e5b5a85a993a:3
+[23:26:06.155] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+(ImageOperationException) Error reading ImageOperation
+Caused by: (OutOfRangeException) out of range list::at(1)
+[23:26:32.937] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:26:33.544] [Info] Protected dungeonIds for world set to (65524)
+[23:26:41.267] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:26:41.369] [Info] UniverseServer: Stopping idle world InstanceWorld:pirateship:c3a422fccf8f8ef19ab3ebe04c8b3479:6
+[23:26:41.371] [Info] Client received world stop packet, leaving: Removed
+[23:26:42.341] [Info] ----- FU player init -----
+[23:26:42.341] [Info] ----- End FU player init -----
+[23:26:42.341] [Info] ----- ZB player init -----
+[23:26:42.341] [Info] [ZB] Mods using update info window and their versions:
+[23:26:42.342] [Info] -- ztarbound   [Version 6.1.11]
+[23:26:42.342] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:26:42.342] [Info] ----- end ZB player init -----
+[23:27:09.715] [Info] UniverseServer: Loading temporary instance world InstanceWorld:pirateship:c3a422fccf8f8ef19ab3ebe04c8b3479:6 from storage
+[23:27:09.717] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:27:09.792] [Info] UniverseServer: Warping player 1 to InstanceWorld:pirateship:c3a422fccf8f8ef19ab3ebe04c8b3479:6
+[23:27:09.800] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:27:09.816] [Info] Client received world stop packet, leaving: Removed
+[23:27:10.034] [Info] ----- FU player init -----
+[23:27:10.034] [Info] ----- End FU player init -----
+[23:27:10.034] [Info] ----- ZB player init -----
+[23:27:10.034] [Info] [ZB] Mods using update info window and their versions:
+[23:27:10.034] [Info] -- ztarbound   [Version 6.1.11]
+[23:27:10.034] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:27:10.034] [Info] ----- end ZB player init -----
+[23:27:32.916] [Info] UniverseServer: Expiring temporary world InstanceWorld:spaceencounter:6d9ec6b425dad820fe4713d1d21a8082:3
+[23:29:37.855] [Info] UniverseServer: Expiring temporary world InstanceWorld:spaceencounter:ddaa8dbbae358cd971e8f4e38a048269:3
+[23:30:17.205] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:30:18.142] [Info] Protected dungeonIds for world set to (65524)
+[23:30:26.412] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:30:26.455] [Info] Client received world stop packet, leaving: Removed
+[23:30:26.460] [Info] UniverseServer: Stopping idle world InstanceWorld:pirateship:c3a422fccf8f8ef19ab3ebe04c8b3479:6
+[23:30:27.503] [Info] ----- FU player init -----
+[23:30:27.503] [Info] ----- End FU player init -----
+[23:30:27.503] [Info] ----- ZB player init -----
+[23:30:27.503] [Info] [ZB] Mods using update info window and their versions:
+[23:30:27.504] [Info] -- ztarbound   [Version 6.1.11]
+[23:30:27.504] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:30:27.504] [Info] ----- end ZB player init -----
+[23:30:40.892] [Info] Flying ship for player 1 to 445527468:603103266:-17918708
+[23:30:44.553] [Info] UniverseServer: Arriving ship for player 1 at 445527468:603103266:-17918708
+[23:30:44.654] [Info] Flying ship for player 1 to 445527468:603103266:-17918708
+[23:30:45.481] [Info] UniverseServer: Arriving ship for player 1 at 445527468:603103266:-17918708
+[23:30:47.206] [Info] Flying ship for player 1 to 445527468:603103266:-17918708:10
+[23:30:48.128] [Info] UniverseServer: Creating celestial world 445527468:603103266:-17918708:10
+[23:30:48.591] [Info] Protected dungeonIds for world set to (65524)
+[23:30:48.591] [Info] Placing dungeon ship1
+[23:30:48.636] [Info] Placing dungeon at (10792, 4000)
+[23:30:49.087] [Warn] Failed to place dungeon object: bunkercrate direction: 1 position: (7, 4039)
+[23:30:49.092] [Warn] Failed to place dungeon object: bunkercrate direction: 1 position: (7, 4041)
+[23:30:49.201] [Warn] Failed to place dungeon object: bunkertv direction: 1 position: (150, 4059)
+[23:30:49.307] [Warn] Failed to place dungeon object: chemlab direction: 1 position: (7, 4070)
+[23:30:49.336] [Warn] Failed to place dungeon object: apexceilingtv direction: 0 position: (10979, 4077)
+[23:30:49.379] [Warn] Failed to place dungeon object: labtv1 direction: 1 position: (10996, 4083)
+[23:30:49.410] [Warn] Failed to place dungeon object: lunarbasebunk direction: 1 position: (10973, 4091)
+[23:30:49.417] [Warn] Failed to place dungeon object: lunarbasebunk direction: 1 position: (10973, 4094)
+[23:30:50.093] [Warn] Dungeon wire endpoint not found. (136, 4056)
+[23:30:50.093] [Warn] Dungeon wires did not make a circuit.
+[23:30:50.093] [Warn] Dungeon wire endpoint not found. (128, 4056)
+[23:30:50.093] [Warn] Dungeon wires did not make a circuit.
+[23:30:50.094] [Warn] Dungeon wire endpoint not found. (132, 4048)
+[23:30:50.094] [Warn] Dungeon wires did not make a circuit.
+[23:30:50.094] [Warn] Dungeon wire endpoint not found. (137, 4048)
+[23:30:50.094] [Warn] Dungeon wires did not make a circuit.
+[23:30:50.097] [Warn] Dungeon wire endpoint not found. (150, 4059)
+[23:30:50.097] [Warn] Dungeon wires did not make a circuit.
+[23:30:50.097] [Warn] Dungeon wire endpoint not found. (136, 4060)
+[23:30:50.097] [Warn] Dungeon wires did not make a circuit.
+[23:30:50.098] [Warn] Dungeon wire endpoint not found. (10980, 4075)
+[23:30:50.098] [Warn] Dungeon wires did not make a circuit.
+[23:30:50.100] [Warn] Dungeon wire endpoint not found. (128, 4060)
+[23:30:50.100] [Warn] Dungeon wires did not make a circuit.
+[23:30:50.204] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:30:50.207] [Info] Placing dungeon apextestchamber
+[23:30:50.246] [Info] Placing dungeon at (2644, 4000)
+[23:30:51.406] [Warn] Failed to place dungeon object: apextv direction: 0 position: (2725, 4019)
+[23:30:51.475] [Info] Protected dungeonIds for world set to (0, 1, 65524)
+[23:30:51.477] [Info] Placing dungeon humanbunker
+[23:30:51.539] [Info] Placing dungeon at (5067, 4000)
+[23:30:52.692] [Warn] Failed to place dungeon object: bunkerpanel2 direction: 0 position: (5305, 3878)
+[23:30:52.859] [Warn] Failed to place dungeon object: bunkerserver direction: 0 position: (5285, 3928)
+[23:30:52.925] [Warn] Failed to place dungeon object: electriclight direction: 0 position: (5108, 3937)
+[23:30:52.939] [Warn] Failed to place dungeon object: woodenbed2 direction: 1 position: (5428, 3938)
+[23:30:52.960] [Warn] Failed to place dungeon object: fluorescentlight direction: 0 position: (5127, 3943)
+[23:30:52.960] [Warn] Failed to place dungeon object: fluorescentlight direction: 0 position: (5145, 3943)
+[23:30:52.993] [Warn] Failed to place dungeon object: woodenchair direction: 1 position: (5384, 3949)
+[23:30:53.042] [Warn] Failed to place dungeon object: woodenbed2 direction: 1 position: (5387, 3959)
+[23:30:53.045] [Warn] Failed to place dungeon object: woodenbed2 direction: 1 position: (5437, 3959)
+[23:30:54.002] [Info] Placing dungeon fuscifidungeon
+[23:30:54.029] [Info] Placing dungeon at (8291, 4000)
+[23:30:59.278] [Info] UniverseServer: Arriving ship for player 1 at 445527468:603103266:-17918708:10
+[23:30:59.293] [Info] UniverseServer: Stopping idle world CelestialWorld:445527468:603103266:-17918708:10
+[23:31:07.178] [Info] UniverseServer: Loading celestial world 445527468:603103266:-17918708:10
+[23:31:07.766] [Info] Protected dungeonIds for world set to (0, 1, 65524)
+[23:31:07.886] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527468:603103266:-17918708:10
+[23:31:07.906] [Info] Client received world stop packet, leaving: Removed
+[23:31:07.909] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:31:14.955] [Info] ----- FU player init -----
+[23:31:14.955] [Info] ----- End FU player init -----
+[23:31:14.955] [Info] ----- ZB player init -----
+[23:31:14.955] [Info] [ZB] Mods using update info window and their versions:
+[23:31:14.956] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:31:14.956] [Info] -- ztarbound   [Version 6.1.11]
+[23:31:14.957] [Info] ----- end ZB player init -----
+[23:31:26.620] [Info] Chat: <SAIL> WARNING: ELECTRICAL STORM ! A nasty electric storm is picking up. The charge in the air will interfere with your energy supply and could cause dangerous overloads. I advise you to find shelter immediately.
+[23:36:16.362] [Error] Could not load image asset '/objects/cultist/cultisttent/cultisttentlit.png', using placeholder default.
+(AssetException) No such asset '/objects/cultist/cultisttent/cultisttentlit.png'
+[23:36:30.433] [Warn] Failed to place dungeon object: chemlab direction: 1 position: (9049, 4004)
+[23:37:20.013] [Warn] Failed to place dungeon object: shipyardjunk direction: 1 position: (8772, 4001)
+[23:38:18.558] [Error] Exception while invoking lua function 'update'. (LuaException) Error code 2, [string "/items/active/weapons/weapon.lua"]:43: [string "/items/active/weapons/weapon.lua"]:104: [string "/items/active/weapons/bow/abilities/rngbows/w..."]:179: (LuaConversionException) Error converting LuaValue to type 'int'
+[0] 6dff1a Star::captureStack
+[1] 6dede8 Star::StarException::StarException
+[2] 6b3215 Star::LuaConversionException::LuaConversionException
+[3] 6af909 Star::LuaConversionException::format<char const *>
+[4] 846092 Star::LuaEngine::luaTo<int>
+[5] c935a2 <lambda_98c74b352c2c73e07d02a9352b207936>::operator()
+[6] c656c3 std::_Invoker_functor::_Call<<lambda_98c74b352c2c73e07d02a9352b207936> &,Star::LuaEngine &,unsigned int,Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData> *>
+[7] c795ff std::invoke<<lambda_98c74b352c2c73e07d02a9352b207936> &,Star::LuaEngine &,unsigned int,Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData> *>
+[8] c6c3d9 std::_Invoke_ret<Star::Variant<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData>,Star::LuaVariadic<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData> > >,<lambda_98c74b352c2c73e07d02a9352b207936> &,Star::LuaEngine &,unsigned int,Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData> *>
+[9] c99f93 std::_Func_impl<<lambda_98c74b352c2c73e07d02a9352b207936>,std::allocator<int>,Star::Variant<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData>,Star::LuaVariadic<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData> > >,Star::LuaEngine &,unsigned int,Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData> *>::_Do_call
+[10] 6b5d95 std::_Func_class<Star::Variant<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData>,Star::LuaVariadic<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData> > >,Star::LuaEngine &,unsigned int,Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData> *>::operator()
+[11] 6b4eba <lambda_6f0dd7d88763bf7b542004c94bb81661>::operator()
+[12] 6adb4d <lambda_6f0dd7d88763bf7b542004c94bb81661>::<lambda_invoker_cdecl>
+[13] 65398e luaD_precall
+[14] 6692d6 luaV_execute
+[15] 653f94 resume
+[16] 653b80 luaD_rawrunprotected
+[17] 653dfb lua_resume
+[18] 6b7db8 Star::LuaEngine::coresumeWithTraceback
+[19] 65398e luaD_precall
+[20] 6692d6 luaV_execute
+[21] 6541ce unroll
+[22] 653ffa resume
+[23] 653b80 luaD_rawrunprotected
+[24] 653dfb lua_resume
+[25] 6b7db8 Star::LuaEngine::coresumeWithTraceback
+[26] 65398e luaD_precall
+[27] 6692d6 luaV_execute
+[28] 653598 luaD_call
+[29] 64b515 f_call
+[30] 653b80 luaD_rawrunprotected
+[31] 653717 luaD_pcall
+[32] 64bf39 lua_pcallk
+[33] 6bb1d7 Star::LuaEngine::pcallWithTraceback
+[34] bb7923 Star::LuaEngine::callFunction<float,Star::String,bool,Star::MapMixin<Star::FlatHashMap<Star::String,bool,Star::hash<Star::String,void>,std::equal_to<Star::String>,std::allocator<std::pair<Star::String const ,bool> > > > >
+[35] bb8d7f Star::LuaFunction::invoke<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData>,float,Star::String,bool,Star::MapMixin<Star::FlatHashMap<Star::String,bool,Star::hash<Star::String,void>,std::equal_to<Star::String>,std::allocator<std::pair<Star::String const ,bool> > > > >
+[36] bb8c3d Star::LuaBaseComponent::invoke<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData>,float,Star::String const &,bool &,Star::MapMixin<Star::FlatHashMap<Star::String,bool,Star::hash<Star::String,void>,std::equal_to<Star::String>,std::allocator<std::pair<Star::String const ,bool> > > > &>
+[37] bbaf97 Star::LuaUpdatableComponent<Star::LuaStorableComponent<Star::LuaWorldComponent<Star::LuaBaseComponent> > >::update<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData>,float,Star::String const &,bool &,Star::MapMixin<Star::FlatHashMap<Star::String,bool,Star::hash<Star::String,void>,std::equal_to<Star::String>,std::allocator<std::pair<Star::String const ,bool> > > > &>
+[38] bbaf07 Star::LuaActorMovementComponent<Star::LuaUpdatableComponent<Star::LuaStorableComponent<Star::LuaWorldComponent<Star::LuaBaseComponent> > > >::update<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData>,float,Star::String const &,bool &,Star::MapMixin<Star::FlatHashMap<Star::String,bool,Star::hash<Star::String,void>,std::equal_to<Star::String>,std::allocator<std::pair<Star::String const ,bool> > > > &>
+[39] bc8178 Star::ActiveItem::update
+[40] a9eff3 Star::ToolUser::tick
+[41] 956a51 Star::Player::update
+[42] b1449e <lambda_43cd99ed4848a23793d927f33301b453>::operator()
+[43] 7ef175 Star::EntityMap::updateAllEntities
+[44] b28c78 Star::WorldClient::update
+[45] aabc5a Star::UniverseClient::update
+[46] 648c4e Star::ClientApplication::updateRunning
+[47] 647809 Star::ClientApplication::update
+[48] cc9615 Star::SdlPlatform::run
+[49] cc9856 Star::runMainApplication
+[50] 64a81f WinMain
+[51] df81c9 __scrt_common_main_seh
+[52] 7694fa29 BaseThreadInitThunk
+[53] 77c175f4 RtlGetAppContainerNamedObjectPath
+[54] 77c175c4 RtlGetAppContainerNamedObjectPath
+stack traceback:
+	[C]: in field 'entityExists'
+	[string "/items/active/weapons/bow/abilities/rngbows/w..."]:179: in function <[string "/items/active/weapons/bow/abilities/rngbows/w..."]:128>
+stack traceback:
+	[C]: in function '_ENV.error'
+	[string "/items/active/weapons/weapon.lua"]:104: in method 'setAbilityState'
+	[string "/items/active/weapons/weapon.lua"]:307: in method 'setState'
+	[string "/items/active/weapons/bow/abilities/rngbows/w..."]:125: in function <[string "/items/active/weapons/bow/abilities/rngbows/w..."]:58>
+stack traceback:
+	[C]: in ?
+	[C]: in function '_ENV.error'
+	[string "/items/active/weapons/weapon.lua"]:43: in method 'update'
+	[string "/items/active/weapons/bow/randomlygenerated/r..."]:41: in function <[string "/items/active/weapons/bow/randomlygenerated/r..."]:25>
+[0] 6dff1a Star::captureStack
+[1] 6dede8 Star::StarException::StarException
+[2] 6b3365 Star::LuaException::LuaException
+[3] 6ba089 Star::LuaEngine::handleError
+[4] bb7937 Star::LuaEngine::callFunction<float,Star::String,bool,Star::MapMixin<Star::FlatHashMap<Star::String,bool,Star::hash<Star::String,void>,std::equal_to<Star::String>,std::allocator<std::pair<Star::String const ,bool> > > > >
+[5] bb8d7f Star::LuaFunction::invoke<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData>,float,Star::String,bool,Star::MapMixin<Star::FlatHashMap<Star::String,bool,Star::hash<Star::String,void>,std::equal_to<Star::String>,std::allocator<std::pair<Star::String const ,bool> > > > >
+[6] bb8c3d Star::LuaBaseComponent::invoke<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData>,float,Star::String const &,bool &,Star::MapMixin<Star::FlatHashMap<Star::String,bool,Star::hash<Star::String,void>,std::equal_to<Star::String>,std::allocator<std::pair<Star::String const ,bool> > > > &>
+[7] bbaf97 Star::LuaUpdatableComponent<Star::LuaStorableComponent<Star::LuaWorldComponent<Star::LuaBaseComponent> > >::update<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData>,float,Star::String const &,bool &,Star::MapMixin<Star::FlatHashMap<Star::String,bool,Star::hash<Star::String,void>,std::equal_to<Star::String>,std::allocator<std::pair<Star::String const ,bool> > > > &>
+[8] bbaf07 Star::LuaActorMovementComponent<Star::LuaUpdatableComponent<Star::LuaStorableComponent<Star::LuaWorldComponent<Star::LuaBaseComponent> > > >::update<Star::Variant<Star::Empty,bool,__int64,double,Star::LuaString,Star::LuaTable,Star::LuaFunction,Star::LuaThread,Star::LuaUserData>,float,Star::String const &,bool &,Star::MapMixin<Star::FlatHashMap<Star::String,bool,Star::hash<Star::String,void>,std::equal_to<Star::String>,std::allocator<std::pair<Star::String const ,bool> > > > &>
+[9] bc8178 Star::ActiveItem::update
+[10] a9eff3 Star::ToolUser::tick
+[11] 956a51 Star::Player::update
+[12] b1449e <lambda_43cd99ed4848a23793d927f33301b453>::operator()
+[13] 7ef175 Star::EntityMap::updateAllEntities
+[14] b28c78 Star::WorldClient::update
+[15] aabc5a Star::UniverseClient::update
+[16] 648c4e Star::ClientApplication::updateRunning
+[17] 647809 Star::ClientApplication::update
+[18] cc9615 Star::SdlPlatform::run
+[19] cc9856 Star::runMainApplication
+[20] 64a81f WinMain
+[21] df81c9 __scrt_common_main_seh
+[22] 7694fa29 BaseThreadInitThunk
+[23] 77c175f4 RtlGetAppContainerNamedObjectPath
+[24] 77c175c4 RtlGetAppContainerNamedObjectPath
+[23:40:26.573] [Info] UniverseServer: Expiring temporary world InstanceWorld:pirateship:c3a422fccf8f8ef19ab3ebe04c8b3479:6
+[23:41:27.459] [Info] Skipped event recording for nonexistent entity 68598
+[23:41:44.297] [Info] Skipped event recording for nonexistent entity 55340
+[23:42:43.358] [Error] Could not load audio asset '/sfx/npc/tech/mech_powerdown.ogg', using placeholder default.
+(AssetException) No such asset '/sfx/npc/tech/mech_powerdown.ogg'
+[23:58:20.072] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:58:20.680] [Info] Protected dungeonIds for world set to (65524)
+[23:58:28.829] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:58:28.879] [Info] Client received world stop packet, leaving: Removed
+[23:58:28.941] [Info] UniverseServer: Stopping idle world CelestialWorld:445527468:603103266:-17918708:10
+[23:58:30.191] [Info] ----- FU player init -----
+[23:58:30.191] [Info] ----- End FU player init -----
+[23:58:30.191] [Info] ----- ZB player init -----
+[23:58:30.191] [Info] [ZB] Mods using update info window and their versions:
+[23:58:30.193] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:58:30.193] [Info] -- ztarbound   [Version 6.1.11]
+[23:58:30.193] [Info] ----- end ZB player init -----
+[23:58:49.212] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[23:58:49.618] [Info] Protected dungeonIds for world set to (1, 65524)
+[23:58:49.823] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
+[23:58:49.942] [Info] Client received world stop packet, leaving: Removed
+[23:58:51.101] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[23:58:51.575] [Info] ----- FU player init -----
+[23:58:51.575] [Info] ----- End FU player init -----
+[23:58:51.575] [Info] ----- ZB player init -----
+[23:58:51.575] [Info] [ZB] Mods using update info window and their versions:
+[23:58:51.575] [Info] -- ztarbound   [Version 6.1.11]
+[23:58:51.575] [Info] -- frackinuniverse   [Version 6.1.11]
+[23:58:51.575] [Info] ----- end ZB player init -----
+[00:01:24.109] [Error] Could not load image asset '/projectiles/invisibleprojectile/invisibleprojectile.png:0?hueshift=?70', using placeholder default.
+(ImageOperationException) Error reading ImageOperation
+Caused by: (OutOfRangeException) out of range list::at(1)
+[00:01:56.120] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
+[00:01:56.431] [Info] Protected dungeonIds for world set to (65524)
+[00:01:57.622] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
+[00:01:57.651] [Info] Client received world stop packet, leaving: Removed
+[00:01:57.683] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[00:02:04.527] [Info] ----- FU player init -----
+[00:02:04.527] [Info] ----- End FU player init -----
+[00:02:04.527] [Info] ----- ZB player init -----
+[00:02:04.527] [Info] [ZB] Mods using update info window and their versions:
+[00:02:04.528] [Info] -- ztarbound   [Version 6.1.11]
+[00:02:04.528] [Info] -- frackinuniverse   [Version 6.1.11]
+[00:02:04.529] [Info] ----- end ZB player init -----
+[00:05:26.428] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[00:05:27.093] [Info] Protected dungeonIds for world set to (65524)
+[00:05:35.133] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[00:05:35.147] [Info] Client received world stop packet, leaving: Removed
+[00:05:35.163] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
+[00:05:36.355] [Info] ----- FU player init -----
+[00:05:36.356] [Info] ----- End FU player init -----
+[00:05:36.356] [Info] ----- ZB player init -----
+[00:05:36.356] [Info] [ZB] Mods using update info window and their versions:
+[00:05:36.357] [Info] -- ztarbound   [Version 6.1.11]
+[00:05:36.357] [Info] -- frackinuniverse   [Version 6.1.11]
+[00:05:36.357] [Info] ----- end ZB player init -----
+[00:08:51.756] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[00:08:52.123] [Info] Protected dungeonIds for world set to (1, 65524)
+[00:08:52.264] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
+[00:08:52.404] [Info] Client received world stop packet, leaving: Removed
+[00:08:53.174] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[00:08:54.475] [Info] ----- FU player init -----
+[00:08:54.476] [Info] ----- End FU player init -----
+[00:08:54.476] [Info] ----- ZB player init -----
+[00:08:54.476] [Info] [ZB] Mods using update info window and their versions:
+[00:08:54.476] [Info] -- ztarbound   [Version 6.1.11]
+[00:08:54.476] [Info] -- frackinuniverse   [Version 6.1.11]
+[00:08:54.476] [Info] ----- end ZB player init -----
+[00:10:36.343] [Info] UniverseServer: Loading celestial world 445527468:603103266:-17918708:10
+[00:10:36.897] [Info] Protected dungeonIds for world set to (0, 1, 65524)
+[00:10:37.011] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527468:603103266:-17918708:10=d812ca5fb038296ceb641b534250716f
+[00:10:37.025] [Info] Client received world stop packet, leaving: Removed
+[00:10:37.098] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[00:10:44.345] [Info] ----- FU player init -----
+[00:10:44.345] [Info] ----- End FU player init -----
+[00:10:44.345] [Info] ----- ZB player init -----
+[00:10:44.346] [Info] [ZB] Mods using update info window and their versions:
+[00:10:44.347] [Info] -- frackinuniverse   [Version 6.1.11]
+[00:10:44.347] [Info] -- ztarbound   [Version 6.1.11]
+[00:10:44.347] [Info] ----- end ZB player init -----
+[00:13:59.807] [Info] Chat: <SAIL> WARNING: ELECTRICAL STORM ! A nasty electric storm is picking up. The charge in the air will interfere with your energy supply and could cause dangerous overloads. I advise you to find shelter immediately.
+[00:16:07.729] [Info] Skipped event recording for nonexistent entity 40746
+[00:16:07.729] [Info] Skipped event recording for nonexistent entity 40778
+[00:16:07.729] [Info] Skipped event recording for nonexistent entity 40747
+[00:16:07.729] [Info] Skipped event recording for nonexistent entity 40780
+[00:16:07.730] [Info] Skipped event recording for nonexistent entity 40774
+[00:36:23.728] [Warn] Failed to place dungeon object: shipyardjunk direction: 1 position: (6344, 4076)
+[00:41:59.296] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[00:42:00.191] [Info] Protected dungeonIds for world set to (65524)
+[00:42:09.817] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[00:42:09.870] [Info] Client received world stop packet, leaving: Removed
+[00:42:09.888] [Info] UniverseServer: Stopping idle world CelestialWorld:445527468:603103266:-17918708:10
+[00:42:11.086] [Info] ----- FU player init -----
+[00:42:11.086] [Info] ----- End FU player init -----
+[00:42:11.086] [Info] ----- ZB player init -----
+[00:42:11.086] [Info] [ZB] Mods using update info window and their versions:
+[00:42:11.091] [Info] -- frackinuniverse   [Version 6.1.11]
+[00:42:11.091] [Info] -- ztarbound   [Version 6.1.11]
+[00:42:11.091] [Info] ----- end ZB player init -----
+[00:46:26.896] [Info] UniverseClient: Client disconnecting...
+[00:46:26.978] [Info] Client received world stop packet, leaving: Removed
+[00:46:27.348] [Info] UniverseServer: Client 'Skippy' <1> (local) disconnected for reason: 
+[00:46:27.349] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[00:46:28.235] [Info] UniverseServer: Stopping UniverseServer
+[00:46:28.283] [Info] Clearing steam rich presence connection
+[00:46:28.284] [Info] Deleting discord server lobby 788482696833663016
+[00:46:28.495] [Error] Could not connect delete server lobby (err 0)
+[00:46:29.802] [Info] Application: quit requested
+[00:46:29.802] [Info] Application: quitting...
+[00:46:29.802] [Info] Application: shutdown...
+[00:46:31.035] [Info] Root: Shutting down Root
+[00:46:35.369] [Info] Application: Destroying SDL Window
+[00:46:35.389] [Info] Deleting discord server lobby 788482696833663016
+[00:46:35.394] [Info] Application: stopped gracefully
