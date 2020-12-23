@@ -1,142 +1,276 @@
-[00:14:45.276] [Info] Root: Preparing Root...
-[00:14:45.279] [Info] Root: Done preparing Root.
-[00:14:45.289] [Info] Root: Scanning for asset sources in directory '..\assets\'
-[00:14:45.298] [Info] Root: Loaded Configuration in 0.0019752 seconds
-[00:14:46.066] [Info] Root: Scanning for asset sources in directory '..\mods\'
-[00:14:47.401] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
-[00:14:47.404] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
-[00:14:47.406] [Info] Root: Detected asset source named 'FrackinUniverse' at '..\mods\729480149.pak'
-[00:14:47.410] [Info] Root: Detected asset source named 'Faster Warp' at '..\mods\729726251.pak'
-[00:14:47.412] [Info] Root: Detected unnamed asset source at '..\assets\user'
-[00:14:47.414] [Info] Loading assets from: '..\assets\packed.pak'
-[00:14:48.255] [Info] Loading assets from: '..\mods\729480149.pak'
-[00:14:49.594] [Info] Loading assets from: '..\mods\729726251.pak'
-[00:14:49.597] [Info] Loading assets from: '..\assets\user'
-[00:14:51.670] [Info] Assets digest is 204926af2d54b95782bf6b7cb31feddb20cdcc6511d45d5d21868426be2d3e82
-[00:14:51.673] [Info] Root: Loaded Assets in 6.39044 seconds
-[00:14:51.684] [Info] Root: Writing runtime configuration to '..\storage\starbound_server.config'
-[00:14:51.687] [Info] Root: Loaded NameGenerator in 6.38417 seconds
-[00:14:51.823] [Info] Root: Loaded PlantDatabase in 0.134165 seconds
-[00:14:52.387] [Info] Root: Loaded ProjectileDatabase in 0.524854 seconds
-[00:14:53.161] [Info] Root: Loaded MonsterDatabase in 0.771523 seconds
-[00:14:53.375] [Info] Root: Loaded NpcDatabase in 0.211016 seconds
-[00:14:53.505] [Info] Root: Loaded StagehandDatabase in 0.122555 seconds
-[00:14:53.519] [Info] Root: Loaded VehicleDatabase in 0.0131057 seconds
-[00:14:53.685] [Info] Root: Loaded PlayerFactory in 0.160569 seconds
-[00:14:53.743] [Info] Root: Loaded ObjectDatabase in 2.06713 seconds
-[00:14:53.746] [Info] Root: Loaded VersioningDatabase in 0.001252 seconds
-[00:14:53.753] [Info] Root: Loaded EntityFactory in 0.0604553 seconds
-[00:14:53.853] [Info] Root: Loaded ParticleDatabase in 0.094586 seconds
-[00:14:53.859] [Info] Root: Loaded ImageMetadataDatabase in 1.20001e-06 seconds
-[00:14:54.556] [Info] Root: Loaded MaterialDatabase in 0.788038 seconds
-[00:14:54.576] [Info] Root: Loaded TerrainDatabase in 0.0103014 seconds
-[00:14:56.332] [Info] Root: Loaded BiomeDatabase in 1.75321 seconds
-[00:14:56.411] [Info] Root: Loaded LiquidsDatabase in 0.0777585 seconds
-[00:14:56.531] [Info] Root: Loaded StatusEffectDatabase in 0.117566 seconds
-[00:14:57.731] [Info] Root: Loaded DamageDatabase in 1.19747 seconds
-[00:14:57.749] [Info] Root: Loaded EffectSourceDatabase in 0.0157431 seconds
-[00:14:57.796] [Info] Root: Loaded FunctionDatabase in 0.0442511 seconds
-[00:14:58.247] [Info] Root: Loaded TreasureDatabase in 0.448842 seconds
-[00:14:59.192] [Info] Root: Loaded DungeonDefinitions in 0.941825 seconds
-[00:14:59.195] [Info] Root: Loaded TilesetDatabase in 4.53e-05 seconds
-[00:14:59.201] [Info] Root: Loaded StatisticsDatabase in 0.0044517 seconds
-[00:14:59.206] [Info] Root: Loaded EmoteProcessor in 0.0003754 seconds
-[00:14:59.335] [Info] Root: Loaded SpeciesDatabase in 0.127426 seconds
-[00:14:59.803] [Info] Root: Loaded QuestTemplateDatabase in 0.465333 seconds
-[00:14:59.811] [Info] Root: Loaded AiDatabase in 0.0056381 seconds
-[00:14:59.823] [Info] Root: Loaded TechDatabase in 0.009423 seconds
-[00:14:59.867] [Info] Root: Loaded CodexDatabase in 0.0415599 seconds
-[00:15:00.397] [Info] Root: Loaded BehaviorDatabase in 0.528733 seconds
-[00:15:00.401] [Info] Root: Loaded DanceDatabase in 0.0022918 seconds
-[00:15:00.429] [Info] Root: Loaded SpawnTypeDatabase in 0.0260444 seconds
-[00:15:00.485] [Info] Root: Loaded RadioMessageDatabase in 0.0547899 seconds
-[00:15:53.563] [Info] Root: Loaded ItemDatabase in 59.8166 seconds
-[00:15:56.332] [Info] Root: Loaded CollectionDatabase in 55.844 seconds
-[00:15:56.430] [Info] Server Version 1.4.4 (windows i386) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
-[00:15:56.890] [Info] UniverseServer: Acquiring universe lock file
-[00:15:56.933] [Info] UniverseServer: Loading settings
-[00:15:56.950] [Info] UniverseServer: Starting UniverseServer with UUID: bf6cac92dd4392b2090f6a23e324c84f
-[00:15:56.955] [Info] UniverseServer: listening for incoming TCP connections on 0.0.0.0:21025
-[00:16:22.907] [Info] UniverseServer: Connection received from: 95.175.104.163:3768
-[00:16:23.748] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Skippy' from address 95.175.104.163
-[00:16:23.754] [Info] UniverseServer: Loading system world (445527283, 603103077, 1710103) from disk storage
-[00:16:23.828] [Info] UniverseServer: Reviving player at ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[00:16:23.832] [Info] UniverseServer: Client 'Skippy' <1> (95.175.104.163) connected
-[00:16:23.856] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[00:16:24.203] [Info] Protected dungeonIds for world set to (65524)
-[00:16:25.727] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267=1231.6.1021
-[00:26:30.767] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[00:26:31.121] [Info] Protected dungeonIds for world set to (65524)
-[00:26:32.853] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[00:26:33.023] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[00:31:39.844] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[00:31:40.177] [Info] Protected dungeonIds for world set to (65524)
-[00:31:41.254] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[00:31:41.289] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[01:38:19.889] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
-[01:38:20.261] [Info] Protected dungeonIds for world set to (1, 65524)
-[01:38:20.472] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
-[01:38:23.063] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[01:39:22.560] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[01:39:22.926] [Info] Protected dungeonIds for world set to (65524)
-[01:39:24.973] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[01:39:25.048] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
-[01:46:04.067] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
-[01:46:04.419] [Info] Protected dungeonIds for world set to (1, 65524)
-[01:46:04.513] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
-[01:46:06.861] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[01:47:39.412] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[01:47:39.768] [Info] Protected dungeonIds for world set to (65524)
-[01:47:41.493] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[01:47:41.573] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
-[01:48:34.909] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:9:2
-[01:48:35.142] [Info] Protected dungeonIds for world set to (65524)
-[01:48:35.231] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:9:2=501160f073e5b70ad65133f93b7ad5b0
-[01:48:35.250] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[02:04:53.102] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[02:04:53.462] [Info] Protected dungeonIds for world set to (65524)
-[02:04:54.548] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[02:04:54.561] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:9:2
-[02:05:16.793] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[02:05:17.152] [Info] Protected dungeonIds for world set to (65524)
-[02:05:17.529] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[02:05:18.807] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[02:08:43.194] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[02:08:43.517] [Info] Protected dungeonIds for world set to (65524)
-[02:08:44.581] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[02:08:44.611] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[02:19:04.801] [Info] Flying ship for player 1 to 445527283:603103077:1710103
-[02:19:09.261] [Info] UniverseServer: Arriving ship for player 1 at 445527283:603103077:1710103
-[02:19:11.110] [Info] Flying ship for player 1 to 445527283:603103077:1710103
-[02:19:19.634] [Info] UniverseServer: Arriving ship for player 1 at 445527283:603103077:1710103
-[02:19:28.911] [Info] Flying ship for player 1 to 445527283:603103077:1710103
-[02:19:36.179] [Info] UniverseServer: Arriving ship for player 1 at 445527283:603103077:1710103
-[02:19:43.607] [Info] UniverseServer: Creating persistent unique instance world spacestation_medical
-[02:19:43.616] [Info] Protected dungeonIds for world set to (65524)
-[02:19:43.617] [Info] Placing dungeon spacestation_medical
-[02:19:43.619] [Info] Placing dungeon at (0, 300)
-[02:19:45.073] [Info] Protected dungeonIds for world set to (0, 65524)
-[02:19:45.413] [Info] UniverseServer: Warping player 1 to InstanceWorld:spacestation_medical:00b22f87a765dc64d2610946c2f1117c:1
-[02:19:45.422] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[02:26:23.045] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[02:26:23.376] [Info] Protected dungeonIds for world set to (65524)
-[02:26:24.548] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[02:26:24.596] [Info] UniverseServer: Stopping idle world InstanceWorld:spacestation_medical:00b22f87a765dc64d2610946c2f1117c:1
-[02:27:07.815] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
-[02:27:08.107] [Info] Protected dungeonIds for world set to (65524)
-[02:27:08.469] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
-[02:27:09.069] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[02:27:38.667] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[02:27:39.005] [Info] Protected dungeonIds for world set to (65524)
-[02:27:40.005] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[02:27:40.042] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
-[02:28:19.117] [Info] Flying ship for player 1 to 445527283:603103077:1710103
-[02:28:22.576] [Info] UniverseServer: Arriving ship for player 1 at 445527283:603103077:1710103
-[02:28:23.009] [Info] Flying ship for player 1 to 445527283:603103077:1710103:5
-[02:28:24.203] [Info] UniverseServer: Loading celestial world 445527283:603103077:1710103:5
-[02:28:24.815] [Info] Protected dungeonIds for world set to (5, 6, 65524)
-[02:28:24.977] [Info] UniverseServer: Arriving ship for player 1 at 445527283:603103077:1710103:5
-[02:28:24.981] [Info] UniverseServer: Stopping idle world CelestialWorld:445527283:603103077:1710103:5
-[02:28:33.437] [Info] UniverseServer: Client 'Skippy' <1> (95.175.104.163) disconnected for reason: 
-[02:28:33.441] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
-[02:28:43.450] [Info] UniverseServer: Reaped 1 dead connections
+[20:49:32.308] [Info] Root: Preparing Root...
+[20:49:32.311] [Info] Root: Done preparing Root.
+[20:49:32.316] [Info] Root: Scanning for asset sources in directory '..\assets\'
+[20:49:32.316] [Info] Root: Loaded Configuration in 0.0005392 seconds
+[20:49:32.916] [Info] Root: Scanning for asset sources in directory '..\mods\'
+[20:49:33.982] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[20:49:33.982] [Info] Root: Detected asset source named 'base' at '..\assets\packed.pak'
+[20:49:34.000] [Info] Root: Detected asset source named 'FrackinUniverse' at '..\mods\729480149.pak'
+[20:49:34.002] [Info] Root: Detected asset source named 'Faster Warp' at '..\mods\729726251.pak'
+[20:49:34.004] [Info] Root: Detected unnamed asset source at '..\assets\user'
+[20:49:34.006] [Info] Loading assets from: '..\assets\packed.pak'
+[20:49:34.664] [Info] Loading assets from: '..\mods\729480149.pak'
+[20:49:35.768] [Info] Loading assets from: '..\mods\729726251.pak'
+[20:49:35.775] [Info] Loading assets from: '..\assets\user'
+[20:49:37.473] [Info] Assets digest is cf8e14e0baf41691c9694f1656831844917d9aec14763bd442e9540d84155ee3
+[20:49:37.475] [Info] Root: Loaded Assets in 5.16057 seconds
+[20:49:37.479] [Info] Root: Writing runtime configuration to '..\storage\starbound_server.config'
+[20:49:37.515] [Info] Root: Loaded NameGenerator in 5.20662 seconds
+[20:49:38.147] [Info] Root: Loaded PlantDatabase in 0.615778 seconds
+[20:49:38.990] [Info] Root: Loaded ProjectileDatabase in 0.840566 seconds
+[20:49:40.380] [Info] Root: Loaded ObjectDatabase in 2.90267 seconds
+[20:49:40.525] [Info] Root: Loaded MonsterDatabase in 1.54567 seconds
+[20:49:40.691] [Info] Root: Loaded NpcDatabase in 0.311293 seconds
+[20:49:40.715] [Info] Root: Loaded StagehandDatabase in 0.174918 seconds
+[20:49:40.746] [Info] Root: Loaded VehicleDatabase in 0.0521666 seconds
+[20:49:40.851] [Info] Root: Loaded PlayerFactory in 0.133897 seconds
+[20:49:40.895] [Info] Root: Loaded VersioningDatabase in 0.0411335 seconds
+[20:49:40.898] [Info] Root: Loaded EntityFactory in 0.149428 seconds
+[20:49:41.204] [Info] Root: Loaded ParticleDatabase in 0.304408 seconds
+[20:49:41.254] [Info] Root: Loaded ImageMetadataDatabase in 1.19995e-06 seconds
+[20:49:42.434] [Info] Root: Loaded MaterialDatabase in 1.53413 seconds
+[20:49:42.484] [Info] Root: Loaded TerrainDatabase in 0.0474009 seconds
+[20:49:44.400] [Info] Root: Loaded BiomeDatabase in 1.87403 seconds
+[20:49:44.469] [Info] Root: Loaded LiquidsDatabase in 0.0668919 seconds
+[20:49:44.660] [Info] Root: Loaded StatusEffectDatabase in 0.189273 seconds
+[20:49:45.716] [Info] Root: Loaded DamageDatabase in 1.06014 seconds
+[20:49:45.762] [Info] Root: Loaded EffectSourceDatabase in 0.0367603 seconds
+[20:49:45.852] [Info] Root: Loaded FunctionDatabase in 0.0879218 seconds
+[20:49:46.305] [Info] Root: Loaded TreasureDatabase in 0.449942 seconds
+[20:49:50.618] [Info] Root: Loaded DungeonDefinitions in 4.30991 seconds
+[20:49:50.620] [Info] Root: Loaded TilesetDatabase in 8.04e-05 seconds
+[20:49:50.635] [Info] Root: Loaded StatisticsDatabase in 0.0128111 seconds
+[20:49:50.646] [Info] Root: Loaded EmoteProcessor in 0.0077338 seconds
+[20:49:50.764] [Info] Root: Loaded SpeciesDatabase in 0.113492 seconds
+[20:49:51.079] [Info] Root: Loaded QuestTemplateDatabase in 0.313776 seconds
+[20:49:51.116] [Info] Root: Loaded AiDatabase in 0.0482995 seconds
+[20:49:51.188] [Info] Root: Loaded TechDatabase in 0.0547072 seconds
+[20:49:51.339] [Info] Root: Loaded CodexDatabase in 0.147655 seconds
+[20:49:51.938] [Info] Root: Loaded BehaviorDatabase in 0.596819 seconds
+[20:49:51.965] [Info] Root: Loaded DanceDatabase in 0.0204561 seconds
+[20:49:52.023] [Info] Root: Loaded SpawnTypeDatabase in 0.0599858 seconds
+[20:49:52.116] [Info] Root: Loaded RadioMessageDatabase in 0.0900713 seconds
+[20:50:37.197] [Info] Root: Loaded ItemDatabase in 56.3431 seconds
+[20:50:40.488] [Info] Root: Loaded CollectionDatabase in 48.3656 seconds
+[20:50:40.598] [Info] Server Version 1.4.4 (windows i386) Source ID: 8cbe6faf22282659828a194e06a08999f213769e Protocol: 747
+[20:50:41.006] [Info] UniverseServer: Acquiring universe lock file
+[20:50:41.061] [Info] UniverseServer: Loading settings
+[20:50:41.066] [Info] UniverseServer: Starting UniverseServer with UUID: bf6cac92dd4392b2090f6a23e324c84f
+[20:50:41.069] [Info] UniverseServer: listening for incoming TCP connections on 0.0.0.0:21025
+[20:51:18.965] [Info] UniverseServer: Connection received from: 95.175.104.196:3287
+[20:51:19.633] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Skippy' from address 95.175.104.196
+[20:51:19.637] [Info] UniverseServer: Loading system world (445527463, 603103112, -130729559) from disk storage
+[20:51:19.698] [Info] UniverseServer: Reviving player at CelestialWorld:445527463:603103112:-130729559:7:1
+[20:51:19.702] [Info] UniverseServer: Client 'Skippy' <1> (95.175.104.196) connected
+[20:51:19.705] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[20:51:20.054] [Info] Protected dungeonIds for world set to (1, 65524)
+[20:51:20.470] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=1873.683
+[20:57:09.718] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[20:57:10.029] [Info] Protected dungeonIds for world set to (65524)
+[20:57:31.374] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[20:57:31.390] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[21:33:21.744] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[21:33:22.057] [Info] Protected dungeonIds for world set to (1, 65524)
+[21:33:22.198] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
+[21:33:23.897] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[21:35:28.300] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
+[21:35:28.810] [Info] Protected dungeonIds for world set to (65524)
+[21:35:29.207] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
+[21:35:30.766] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[21:42:14.550] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[21:42:14.870] [Info] Protected dungeonIds for world set to (1, 65524)
+[21:42:15.003] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
+[21:42:16.398] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
+[21:43:56.791] [Info] UniverseServer: Loading celestial world 445527464:603103243:91107064:3
+[21:43:57.218] [Info] Protected dungeonIds for world set to (1, 65524)
+[21:43:57.590] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527464:603103243:91107064:3=cff60b954c4f6383dfbed5169e239e6b
+[21:43:57.620] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[21:49:26.117] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:49:53.036] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:49:55.738] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:51:00.095] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:51:02.160] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:51:14.390] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:51:16.842] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:51:24.520] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:51:30.817] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:51:31.636] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:51:38.260] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:51:38.502] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:51:54.430] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:51:54.545] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:52:02.301] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:52:02.571] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:52:08.474] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:52:08.625] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:52:13.379] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:52:17.106] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:52:23.929] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:52:26.333] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:52:42.818] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:52:45.657] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:52:49.561] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:57:16.534] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:57:21.956] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:57:31.318] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:57:35.355] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:57:39.715] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:57:46.207] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:57:50.310] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:57:53.859] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:58:29.035] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:58:34.471] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:58:52.428] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:58:57.196] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:59:03.610] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:59:21.417] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[21:59:30.838] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:00:46.346] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:01:07.923] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:01:14.814] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:02:40.463] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:02:40.793] [Info] Protected dungeonIds for world set to (65524)
+[22:03:01.648] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:03:01.680] [Info] UniverseServer: Stopping idle world CelestialWorld:445527464:603103243:91107064:3
+[22:03:14.869] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[22:03:15.260] [Info] Protected dungeonIds for world set to (1, 65524)
+[22:03:15.458] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
+[22:03:16.525] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:03:47.200] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
+[22:03:47.476] [Info] Protected dungeonIds for world set to (65524)
+[22:03:47.678] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
+[22:03:48.788] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[22:07:48.870] [Info] UniverseServer: Loading celestial world 445527464:603103243:91107064:3
+[22:07:49.271] [Info] Protected dungeonIds for world set to (1, 65524)
+[22:07:49.437] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527464:603103243:91107064:3=cff60b954c4f6383dfbed5169e239e6b
+[22:07:49.441] [Info] UniverseServer: Warping player 1 failed, invalid spawn target 'cff60b954c4f6383dfbed5169e239e6b'
+[22:07:49.444] [Info] UniverseServer: Stopping idle world CelestialWorld:445527464:603103243:91107064:3
+[22:08:04.653] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:08:04.991] [Info] Protected dungeonIds for world set to (65524)
+[22:08:26.164] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:08:26.181] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
+[22:11:30.526] [Info] Flying ship for player 1 to 445527464:603103243:91107064
+[22:11:30.534] [Info] UniverseServer: Loading system world (445527464, 603103243, 91107064) from disk storage
+[22:11:30.544] [Info] UniverseServer: Arriving ship for player 1 at 445527464:603103243:91107064
+[22:11:41.713] [Info] Flying ship for player 1 to 445527464:603103243:91107064:3
+[22:11:45.917] [Info] UniverseServer: Loading celestial world 445527464:603103243:91107064:3
+[22:11:46.297] [Info] Protected dungeonIds for world set to (1, 65524)
+[22:11:46.483] [Info] UniverseServer: Arriving ship for player 1 at 445527464:603103243:91107064:3
+[22:11:46.487] [Info] UniverseServer: Stopping idle world CelestialWorld:445527464:603103243:91107064:3
+[22:11:51.933] [Info] UniverseServer: Loading celestial world 445527464:603103243:91107064:3
+[22:11:52.314] [Info] Protected dungeonIds for world set to (1, 65524)
+[22:11:52.476] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527464:603103243:91107064:3
+[22:11:52.546] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:20:32.875] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:20:38.698] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:20:44.585] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:20:50.151] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:20:56.053] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:21:03.662] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:40:53.653] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:40:58.897] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:41:12.599] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:41:18.411] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:41:26.852] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:41:32.423] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:41:37.507] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:41:56.748] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:42:02.323] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:42:06.407] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:42:09.858] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:42:13.458] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:42:19.268] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:42:37.554] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:42:41.972] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:42:49.916] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:42:55.557] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:43:14.544] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:43:21.342] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:43:26.655] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:43:31.495] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:43:38.234] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:43:45.121] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:43:49.616] [Warn] Could not spawn Projectile of type 'firechargeswoosh', exception caught: (ProjectileDatabaseException) Unknown projectile with typeName firechargeswoosh.
+[22:44:12.937] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[22:44:13.230] [Info] Protected dungeonIds for world set to (1, 65524)
+[22:44:13.376] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
+[22:44:15.197] [Info] UniverseServer: Stopping idle world CelestialWorld:445527464:603103243:91107064:3
+[22:44:45.131] [Info] UniverseServer: Loading celestial world 445527464:603103243:91107064:3
+[22:44:45.530] [Info] Protected dungeonIds for world set to (1, 65524)
+[22:44:45.677] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527464:603103243:91107064:3=3a36669fcecfc72cfdae3e0a1d586385
+[22:44:45.701] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[22:45:13.647] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:45:13.957] [Info] Protected dungeonIds for world set to (65524)
+[22:45:35.047] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:45:35.065] [Info] UniverseServer: Stopping idle world CelestialWorld:445527464:603103243:91107064:3
+[22:46:06.291] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:2
+[22:46:06.569] [Info] Protected dungeonIds for world set to (65524)
+[22:46:08.048] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:2=b313e6d5dcf82be7a477daca26918e9a
+[22:46:08.113] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[22:47:16.043] [Info] UniverseServer: Loading celestial world 445527464:603103243:91107064:3
+[22:47:16.426] [Info] Protected dungeonIds for world set to (1, 65524)
+[22:47:16.598] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527464:603103243:91107064:3=3a36669fcecfc72cfdae3e0a1d586385
+[22:47:16.625] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:2
+[23:21:23.541] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[23:21:23.844] [Info] Protected dungeonIds for world set to (1, 65524)
+[23:21:23.985] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
+[23:21:25.305] [Info] UniverseServer: Stopping idle world CelestialWorld:445527464:603103243:91107064:3
+[23:21:58.019] [Info] UniverseServer: Loading celestial world 445527464:603103243:91107064:3
+[23:21:58.519] [Info] Protected dungeonIds for world set to (1, 65524)
+[23:21:58.743] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527464:603103243:91107064:3=3a36669fcecfc72cfdae3e0a1d586385
+[23:21:58.822] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[23:42:24.424] [Info] UniverseServer: Creating temporary instance world 'InstanceWorld:outpost:-:-' with expiry time 0
+[23:42:24.439] [Info] Protected dungeonIds for world set to (65524)
+[23:42:24.440] [Info] Placing dungeon outpost
+[23:42:24.449] [Info] Placing dungeon at (0, 750)
+[23:42:28.538] [Info] Protected dungeonIds for world set to (0, 65524)
+[23:42:29.403] [Info] Placing dungeon at (406, 651)
+[23:42:29.409] [Info] Placing dungeon at (332, 621)
+[23:42:29.415] [Info] Placing dungeon at (332, 655)
+[23:42:29.531] [Info] Placing dungeon at (427, 618)
+[23:42:29.538] [Info] Placing dungeon at (310, 616)
+[23:42:29.543] [Info] Placing dungeon at (838, 608)
+[23:42:29.570] [Info] Placing dungeon at (452, 627)
+[23:42:29.578] [Warn] Failed to place dungeon object: outpostkeypad direction: 1 position: (461, 611)
+[23:42:29.581] [Info] Placing dungeon at (308, 640)
+[23:42:29.586] [Info] Placing dungeon at (931, 608)
+[23:42:29.607] [Info] Placing dungeon at (611, 645)
+[23:42:29.613] [Info] Placing dungeon at (805, 608)
+[23:42:29.630] [Info] Placing dungeon at (444, 561)
+[23:42:29.635] [Info] Placing dungeon at (964, 608)
+[23:42:29.659] [Info] Placing dungeon at (757, 597)
+[23:42:29.684] [Info] Placing dungeon at (355, 636)
+[23:42:29.691] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[23:42:29.695] [Info] Placing dungeon at (355, 636)
+[23:42:29.703] [Warn] Failed to place dungeon object: drip1 direction: 1 position: (372, 634)
+[23:42:29.706] [Info] Placing dungeon at (447, 567)
+[23:42:29.719] [Info] Placing dungeon at (429, 567)
+[23:42:30.759] [Info] UniverseServer: Warping player 1 to InstanceWorld:outpost:-:-=outpost
+[23:42:30.822] [Info] UniverseServer: Stopping idle world CelestialWorld:445527464:603103243:91107064:3
+[23:43:12.560] [Info] UniverseServer: Loading celestial world 445527463:603103112:-130729559:7:1
+[23:43:12.935] [Info] Protected dungeonIds for world set to (1, 65524)
+[23:43:13.107] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527463:603103112:-130729559:7:1=2bf64de45307ada78f6824ae281f6001
+[23:43:13.932] [Info] UniverseServer: Stopping idle world InstanceWorld:outpost:-:-
+[23:43:14.413] [Info] UniverseServer: Expiring temporary world InstanceWorld:outpost:-:-
+[23:43:57.375] [Info] UniverseServer: Loading celestial world 445527464:603103243:91107064:3
+[23:43:57.758] [Info] Protected dungeonIds for world set to (1, 65524)
+[23:43:57.932] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527464:603103243:91107064:3=3a36669fcecfc72cfdae3e0a1d586385
+[23:43:57.959] [Info] UniverseServer: Stopping idle world CelestialWorld:445527463:603103112:-130729559:7:1
+[00:00:44.700] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[00:00:45.039] [Info] Protected dungeonIds for world set to (65524)
+[00:01:06.167] [Info] UniverseServer: Warping player 1 to ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[00:01:06.181] [Info] UniverseServer: Stopping idle world CelestialWorld:445527464:603103243:91107064:3
+[00:02:12.692] [Info] UniverseServer: Loading celestial world 445527464:603103243:91107064:3
+[00:02:13.139] [Info] Protected dungeonIds for world set to (1, 65524)
+[00:02:13.833] [Info] UniverseServer: Warping player 1 to CelestialWorld:445527464:603103243:91107064:3
+[00:02:13.901] [Info] UniverseServer: Stopping idle world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[00:14:11.311] [Info] UniverseServer: Client 'Skippy' <1> (95.175.104.196) disconnected for reason: 
+[00:14:11.315] [Info] UniverseServer: Stopping idle world CelestialWorld:445527464:603103243:91107064:3
+[00:14:21.357] [Info] UniverseServer: Reaped 1 dead connections
+[00:14:25.610] [Info] UniverseServer: Connection received from: 95.175.104.196:8000
+[00:14:26.277] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Skippy' from address 95.175.104.196
+[00:14:26.283] [Info] UniverseServer: Loading system world (445527464, 603103243, 91107064) from disk storage
+[00:14:26.291] [Info] UniverseServer: Reviving player at ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[00:14:26.294] [Info] UniverseServer: Client 'Skippy' <2> (95.175.104.196) connected
+[00:14:26.301] [Info] UniverseServer: Loading client ship world ClientShipWorld:d0699a9bb7be5336b8e8001eff1a6267
+[00:14:26.612] [Info] Protected dungeonIds for world set to (65524)
